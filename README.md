@@ -15,7 +15,7 @@ The code runs on Python 3.9.5 and Numpy 2.0.2.
 ## *Experiment* folder
 - It contains the Javascript code for the experiment links above.
 
-## Analysis folder
+## *Analysis* folder
 - **manuscript_allfigures_final.ipynb** creates all figures for the manuscript, based on the human data and the saved model fit files.
 - **exps_rawdataload.ipynb** converts raw, participant-specific datafiles to files seen in the *data* subfolder. 
 - **exp1_modelfits.ipynb** fits models to Experiment 1 human data.
