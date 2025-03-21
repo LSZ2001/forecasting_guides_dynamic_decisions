@@ -1,0 +1,301 @@
+SubjectID,Trial,T_end,chooseVelocity,Age,Gender,Comments
+0,0,3,0,37,F,I was asked to decide on a defense against an alien attack based off of past scenarios.
+0,1,5,0,37,F,I was asked to decide on a defense against an alien attack based off of past scenarios.
+0,2,8,0,37,F,I was asked to decide on a defense against an alien attack based off of past scenarios.
+1,0,3,0,44,F,I had to choose which defense system would be better based on when the attack would happen. I could choose A or B after viewing examples of their increases over several months.
+1,1,5,1,44,F,I had to choose which defense system would be better based on when the attack would happen. I could choose A or B after viewing examples of their increases over several months.
+1,2,8,1,44,F,I had to choose which defense system would be better based on when the attack would happen. I could choose A or B after viewing examples of their increases over several months.
+2,0,3,0,36,M,none
+2,1,5,0,36,M,none
+2,2,8,1,36,M,none
+3,0,3,1,46,F,I had to choose the missile that would be most effective when the time came to use it
+3,1,5,1,46,F,I had to choose the missile that would be most effective when the time came to use it
+3,2,8,1,46,F,I had to choose the missile that would be most effective when the time came to use it
+4,0,3,1,38,F,My task is to choose the energy type to use.
+4,1,5,1,38,F,My task is to choose the energy type to use.
+4,2,8,1,38,F,My task is to choose the energy type to use.
+5,0,3,1,39,M,Using historical evidence to predict future behaviors of planetary defenses
+5,1,5,0,39,M,Using historical evidence to predict future behaviors of planetary defenses
+5,2,8,0,39,M,Using historical evidence to predict future behaviors of planetary defenses
+6,0,3,0,46,F,I had to observe the improvements and effectiveness over time of two different energy sources and choose which one to use as a form of defense against attack over three scenarios.
+6,1,5,1,46,F,I had to observe the improvements and effectiveness over time of two different energy sources and choose which one to use as a form of defense against attack over three scenarios.
+6,2,8,1,46,F,I had to observe the improvements and effectiveness over time of two different energy sources and choose which one to use as a form of defense against attack over three scenarios.
+7,0,3,0,40,F,much more hava great succeful study now
+7,1,5,1,40,F,much more hava great succeful study now
+7,2,8,0,40,F,much more hava great succeful study now
+8,0,3,1,30,M,i chose which energy was better to use for the defense system over a certain timespan
+8,1,5,1,30,M,i chose which energy was better to use for the defense system over a certain timespan
+8,2,8,1,30,M,i chose which energy was better to use for the defense system over a certain timespan
+9,0,3,0,35,M,I was asked to determine which energy type would be better for defense after several months
+9,1,5,1,35,M,I was asked to determine which energy type would be better for defense after several months
+9,2,8,1,35,M,I was asked to determine which energy type would be better for defense after several months
+10,0,3,0,63,F,"Was provided some statistical data for two defense systems that would be employed to counter an alien attack. Using historical data and the projection of improvement over the course of 10 months, I as defense officer in charge had to select the weapon system to deploy over time. "
+10,1,5,0,63,F,"Was provided some statistical data for two defense systems that would be employed to counter an alien attack. Using historical data and the projection of improvement over the course of 10 months, I as defense officer in charge had to select the weapon system to deploy over time. "
+10,2,8,1,63,F,"Was provided some statistical data for two defense systems that would be employed to counter an alien attack. Using historical data and the projection of improvement over the course of 10 months, I as defense officer in charge had to select the weapon system to deploy over time. "
+11,0,3,1,33,M,I was to choose source of energy needed to fight alien invasion
+11,1,5,1,33,M,I was to choose source of energy needed to fight alien invasion
+11,2,8,1,33,M,I was to choose source of energy needed to fight alien invasion
+12,0,3,0,37,M,Choose the energy type that best defends against an alien attack in different months.
+12,1,5,1,37,M,Choose the energy type that best defends against an alien attack in different months.
+12,2,8,1,37,M,Choose the energy type that best defends against an alien attack in different months.
+13,0,3,0,50,F,Choosing from two different defense systems to prevent an attack from aliens.
+13,1,5,1,50,F,Choosing from two different defense systems to prevent an attack from aliens.
+13,2,8,1,50,F,Choosing from two different defense systems to prevent an attack from aliens.
+14,0,3,0,38,M,I chose the right type of energy for a specific period that would be best against an alien attack.
+14,1,5,1,38,M,I chose the right type of energy for a specific period that would be best against an alien attack.
+14,2,8,0,38,M,I chose the right type of energy for a specific period that would be best against an alien attack.
+15,0,3,0,46,F,Choose which type of energy should be used for the defense system depending on which month we are attacked by aliens and the abilities of each type of energy.
+15,1,5,1,46,F,Choose which type of energy should be used for the defense system depending on which month we are attacked by aliens and the abilities of each type of energy.
+15,2,8,1,46,F,Choose which type of energy should be used for the defense system depending on which month we are attacked by aliens and the abilities of each type of energy.
+16,0,3,0,35,M,good
+16,1,5,1,35,M,good
+16,2,8,0,35,M,good
+17,0,3,0,58,F,Considering 2 energy sources and their timeliness which would you choose based on estimated time of alien attack. 
+17,1,5,0,58,F,Considering 2 energy sources and their timeliness which would you choose based on estimated time of alien attack. 
+17,2,8,1,58,F,Considering 2 energy sources and their timeliness which would you choose based on estimated time of alien attack. 
+18,0,3,0,43,F,I had to determine which energy type was best for an attack at a certain time.
+18,1,5,0,43,F,I had to determine which energy type was best for an attack at a certain time.
+18,2,8,1,43,F,I had to determine which energy type was best for an attack at a certain time.
+19,0,3,1,30,F,good
+19,1,5,0,30,F,good
+19,2,8,0,30,F,good
+20,0,3,0,53,M,Choose the best type of home planet defense for an alien invasion. The choices are between type A defense and Type B defense. At certain times of attack type A is a better choice and at other times of attack type B is a better choice.
+20,1,5,1,53,M,Choose the best type of home planet defense for an alien invasion. The choices are between type A defense and Type B defense. At certain times of attack type A is a better choice and at other times of attack type B is a better choice.
+20,2,8,1,53,M,Choose the best type of home planet defense for an alien invasion. The choices are between type A defense and Type B defense. At certain times of attack type A is a better choice and at other times of attack type B is a better choice.
+21,0,3,1,57,F,I read questions then answered a comprehension test. I chose between A and B for future defense over a 10 month period. I then had demo questions. 
+21,1,5,1,57,F,I read questions then answered a comprehension test. I chose between A and B for future defense over a 10 month period. I then had demo questions. 
+21,2,8,1,57,F,I read questions then answered a comprehension test. I chose between A and B for future defense over a 10 month period. I then had demo questions. 
+22,0,3,1,70,M,I chose what defense strategy to apply if the planet is attacked in the more or less distant future.
+22,1,5,0,70,M,I chose what defense strategy to apply if the planet is attacked in the more or less distant future.
+22,2,8,1,70,M,I chose what defense strategy to apply if the planet is attacked in the more or less distant future.
+23,0,3,0,37,M,We had to defend our planet from aliens by choosing which defense we would pick. The defense would be more effective at different times and you had to pick which one would be better for the time of the attack.
+23,1,5,1,37,M,We had to defend our planet from aliens by choosing which defense we would pick. The defense would be more effective at different times and you had to pick which one would be better for the time of the attack.
+23,2,8,1,37,M,We had to defend our planet from aliens by choosing which defense we would pick. The defense would be more effective at different times and you had to pick which one would be better for the time of the attack.
+24,0,3,0,37,F,The task was to chose which of two energy sources were better to defend my planet from an alien attack.
+24,1,5,0,37,F,The task was to chose which of two energy sources were better to defend my planet from an alien attack.
+24,2,8,1,37,F,The task was to chose which of two energy sources were better to defend my planet from an alien attack.
+25,0,3,1,36,F,Observation of defense system. Different energy types over a time.
+25,1,5,1,36,F,Observation of defense system. Different energy types over a time.
+25,2,8,1,36,F,Observation of defense system. Different energy types over a time.
+26,0,3,0,36,F,"I was told to review history of two different energy types, and use that information to plan which energy type to use to upgrade a weapon, given a different time of the fatal alien attack."
+26,1,5,1,36,F,"I was told to review history of two different energy types, and use that information to plan which energy type to use to upgrade a weapon, given a different time of the fatal alien attack."
+26,2,8,1,36,F,"I was told to review history of two different energy types, and use that information to plan which energy type to use to upgrade a weapon, given a different time of the fatal alien attack."
+27,0,3,0,46,F,Determining which energy source is the best
+27,1,5,0,46,F,Determining which energy source is the best
+27,2,8,1,46,F,Determining which energy source is the best
+28,0,3,1,45,F,I had to choose which energy source to use based on each attack scenario.
+28,1,5,0,45,F,I had to choose which energy source to use based on each attack scenario.
+28,2,8,1,45,F,I had to choose which energy source to use based on each attack scenario.
+29,0,3,0,41,F,I studied how different energy sources started and increased over time to power a defense system and picked which one I thought best for attacks occuring at three different time points
+29,1,5,1,41,F,I studied how different energy sources started and increased over time to power a defense system and picked which one I thought best for attacks occuring at three different time points
+29,2,8,1,41,F,I studied how different energy sources started and increased over time to power a defense system and picked which one I thought best for attacks occuring at three different time points
+30,0,3,0,39,M,month
+30,1,5,0,39,M,month
+30,2,8,1,39,M,month
+31,0,3,0,50,M,"The earth was being under attack. I was supposed to choose between two types of energy, and the task was to choose the best one at the time of the attack. "
+31,1,5,1,50,M,"The earth was being under attack. I was supposed to choose between two types of energy, and the task was to choose the best one at the time of the attack. "
+31,2,8,1,50,M,"The earth was being under attack. I was supposed to choose between two types of energy, and the task was to choose the best one at the time of the attack. "
+32,0,3,1,26,M,Chose whether i will choose type a or b
+32,1,5,1,26,M,Chose whether i will choose type a or b
+32,2,8,0,26,M,Chose whether i will choose type a or b
+33,0,3,1,33,M,"Each energy type provides some defense capability at start. Over time, the system is built incrementally and its capability increases"
+33,1,5,1,33,M,"Each energy type provides some defense capability at start. Over time, the system is built incrementally and its capability increases"
+33,2,8,1,33,M,"Each energy type provides some defense capability at start. Over time, the system is built incrementally and its capability increases"
+34,0,3,0,47,M,I had to choose the energy type to use in the defense of my planet from alien invaders.  
+34,1,5,1,47,M,I had to choose the energy type to use in the defense of my planet from alien invaders.  
+34,2,8,1,47,M,I had to choose the energy type to use in the defense of my planet from alien invaders.  
+35,0,3,1,60,F,I had to choose which energy type would be best to defend my planet over a period of months.
+35,1,5,1,60,F,I had to choose which energy type would be best to defend my planet over a period of months.
+35,2,8,1,60,F,I had to choose which energy type would be best to defend my planet over a period of months.
+36,0,3,0,30,F,I had to decide what defense type would be better depending on when the alien attack happened. Each energy type provided a different level of defense depending how long it had been active.
+36,1,5,1,30,F,I had to decide what defense type would be better depending on when the alien attack happened. Each energy type provided a different level of defense depending how long it had been active.
+36,2,8,1,30,F,I had to decide what defense type would be better depending on when the alien attack happened. Each energy type provided a different level of defense depending how long it had been active.
+37,0,3,1,42,F,Very easy decisions making.
+37,1,5,1,42,F,Very easy decisions making.
+37,2,8,1,42,F,Very easy decisions making.
+38,0,3,0,37,M,I was tasked with building a defense system against an alien attack. I had to choose between two energy types to decide which would be most effective.
+38,1,5,0,37,M,I was tasked with building a defense system against an alien attack. I had to choose between two energy types to decide which would be most effective.
+38,2,8,0,37,M,I was tasked with building a defense system against an alien attack. I had to choose between two energy types to decide which would be most effective.
+39,0,3,1,25,F,I CHOOSING WHICH BETTER ENERGY TYPE TO USE 
+39,1,5,1,25,F,I CHOOSING WHICH BETTER ENERGY TYPE TO USE 
+39,2,8,0,25,F,I CHOOSING WHICH BETTER ENERGY TYPE TO USE 
+40,0,3,1,30,M,Evaluating energy sources in a possible alien attack. I had to view scenarios that showed how the energy would work and then select the best one
+40,1,5,1,30,M,Evaluating energy sources in a possible alien attack. I had to view scenarios that showed how the energy would work and then select the best one
+40,2,8,1,30,M,Evaluating energy sources in a possible alien attack. I had to view scenarios that showed how the energy would work and then select the best one
+41,0,3,0,34,M,Deciding on which energy source to use to defend an attack at different time intervals  
+41,1,5,1,34,M,Deciding on which energy source to use to defend an attack at different time intervals  
+41,2,8,1,34,M,Deciding on which energy source to use to defend an attack at different time intervals  
+42,0,3,0,40,M,"I was asked to select which defense system would be stronger at the time of a specific attack. In general, I noticed that Type A started strong and slowed whereas Type B started slowly but increased more rapidly overall."
+42,1,5,1,40,M,"I was asked to select which defense system would be stronger at the time of a specific attack. In general, I noticed that Type A started strong and slowed whereas Type B started slowly but increased more rapidly overall."
+42,2,8,1,40,M,"I was asked to select which defense system would be stronger at the time of a specific attack. In general, I noticed that Type A started strong and slowed whereas Type B started slowly but increased more rapidly overall."
+43,0,3,0,54,M,I was choosing between two energy systems to defend against an alien attack depending on when the attack was expected.
+43,1,5,1,54,M,I was choosing between two energy systems to defend against an alien attack depending on when the attack was expected.
+43,2,8,1,54,M,I was choosing between two energy systems to defend against an alien attack depending on when the attack was expected.
+44,0,3,1,36,M,I had to select which energy type was the best choice 
+44,1,5,1,36,M,I had to select which energy type was the best choice 
+44,2,8,1,36,M,I had to select which energy type was the best choice 
+45,0,3,0,38,M,It was about defensive state for an upcoming attack
+45,1,5,1,38,M,It was about defensive state for an upcoming attack
+45,2,8,1,38,M,It was about defensive state for an upcoming attack
+46,0,3,1,50,M,well
+46,1,5,1,50,M,well
+46,2,8,1,50,M,well
+47,0,3,0,38,M,"Observe historical performances of different types of defenses over the course of several months, then choose which defense type you'd prefer to use if attacks were to occur in future months."
+47,1,5,1,38,M,"Observe historical performances of different types of defenses over the course of several months, then choose which defense type you'd prefer to use if attacks were to occur in future months."
+47,2,8,1,38,M,"Observe historical performances of different types of defenses over the course of several months, then choose which defense type you'd prefer to use if attacks were to occur in future months."
+48,0,3,0,35,F,Defend my base by choose the type of energy to use.
+48,1,5,0,35,F,Defend my base by choose the type of energy to use.
+48,2,8,0,35,F,Defend my base by choose the type of energy to use.
+49,0,3,1,64,F,I had to choose an energy plan for a specific time period. I had to rely on examples of energy for different monthly periods.
+49,1,5,1,64,F,I had to choose an energy plan for a specific time period. I had to rely on examples of energy for different monthly periods.
+49,2,8,0,64,F,I had to choose an energy plan for a specific time period. I had to rely on examples of energy for different monthly periods.
+50,0,3,0,47,F,Deciding which system will better protect from an alien attack! This was awesome and different!
+50,1,5,0,47,F,Deciding which system will better protect from an alien attack! This was awesome and different!
+50,2,8,1,47,F,Deciding which system will better protect from an alien attack! This was awesome and different!
+51,0,3,1,56,F,I was in charge of determining which energy to use to build a defense system against alien attack coming soon.
+51,1,5,1,56,F,I was in charge of determining which energy to use to build a defense system against alien attack coming soon.
+51,2,8,1,56,F,I was in charge of determining which energy to use to build a defense system against alien attack coming soon.
+52,0,3,0,46,M,"Evaluating a scenario if imminent attach happens, which defense system is best to protect earth in certain timeline."
+52,1,5,1,46,M,"Evaluating a scenario if imminent attach happens, which defense system is best to protect earth in certain timeline."
+52,2,8,1,46,M,"Evaluating a scenario if imminent attach happens, which defense system is best to protect earth in certain timeline."
+53,0,3,1,30,M,a task involving selecting the better energy type for building defense systems in various hypothetical attack scenarios.
+53,1,5,1,30,M,a task involving selecting the better energy type for building defense systems in various hypothetical attack scenarios.
+53,2,8,1,30,M,a task involving selecting the better energy type for building defense systems in various hypothetical attack scenarios.
+54,0,3,0,38,M,I completed a task about energy type comparison increases over time. 
+54,1,5,1,38,M,I completed a task about energy type comparison increases over time. 
+54,2,8,1,38,M,I completed a task about energy type comparison increases over time. 
+55,0,3,0,59,F,Choose best energy effort to thrawt an unknown occurrance of an alien attack.
+55,1,5,1,59,F,Choose best energy effort to thrawt an unknown occurrance of an alien attack.
+55,2,8,1,59,F,Choose best energy effort to thrawt an unknown occurrance of an alien attack.
+56,0,3,0,33,M,Select the better energy type in each scenario
+56,1,5,0,33,M,Select the better energy type in each scenario
+56,2,8,0,33,M,Select the better energy type in each scenario
+57,0,3,0,50,F,I had to determine and choose which energy type would be best to use when attacked at a certain month.
+57,1,5,0,50,F,I had to determine and choose which energy type would be best to use when attacked at a certain month.
+57,2,8,1,50,F,I had to determine and choose which energy type would be best to use when attacked at a certain month.
+58,0,3,0,46,M,i answered which defense would have been the best to defend the planet
+58,1,5,0,46,M,i answered which defense would have been the best to defend the planet
+58,2,8,0,46,M,i answered which defense would have been the best to defend the planet
+59,0,3,0,37,M,weekly
+59,1,5,1,37,M,weekly
+59,2,8,0,37,M,weekly
+60,0,3,0,40,M,I chose which energy type I preferred depending on when the attack would occur.
+60,1,5,1,40,M,I chose which energy type I preferred depending on when the attack would occur.
+60,2,8,1,40,M,I chose which energy type I preferred depending on when the attack would occur.
+61,0,3,0,54,F,"save your planet, pick the better energy source.   It was confusing, I didn't know I know expected to memorize."
+61,1,5,0,54,F,"save your planet, pick the better energy source.   It was confusing, I didn't know I know expected to memorize."
+61,2,8,1,54,F,"save your planet, pick the better energy source.   It was confusing, I didn't know I know expected to memorize."
+62,0,3,1,49,F,I had to pick an energy source to defend against alien attack.
+62,1,5,1,49,F,I had to pick an energy source to defend against alien attack.
+62,2,8,1,49,F,I had to pick an energy source to defend against alien attack.
+63,0,3,0,33,Non-binary,"Aliens were attacking planet earth, and I was to imagine being a scientist to choose which type of energy to power defense systems against the attack. The energies had different power levels at different months, and was to determine which energy would be better/stronger in each hypothetical scenario."
+63,1,5,1,33,Non-binary,"Aliens were attacking planet earth, and I was to imagine being a scientist to choose which type of energy to power defense systems against the attack. The energies had different power levels at different months, and was to determine which energy would be better/stronger in each hypothetical scenario."
+63,2,8,1,33,Non-binary,"Aliens were attacking planet earth, and I was to imagine being a scientist to choose which type of energy to power defense systems against the attack. The energies had different power levels at different months, and was to determine which energy would be better/stronger in each hypothetical scenario."
+64,0,3,0,41,F,"I had to look at examples of two different energy types, and then select the best one in a certain scenario. "
+64,1,5,1,41,F,"I had to look at examples of two different energy types, and then select the best one in a certain scenario. "
+64,2,8,1,41,F,"I had to look at examples of two different energy types, and then select the best one in a certain scenario. "
+65,0,3,0,66,M,none
+65,1,5,0,66,M,none
+65,2,8,1,66,M,none
+66,0,3,0,42,M,I had to look at historic data for defense system energy and decide which energy type was better for different attack times.
+66,1,5,0,42,M,I had to look at historic data for defense system energy and decide which energy type was better for different attack times.
+66,2,8,1,42,M,I had to look at historic data for defense system energy and decide which energy type was better for different attack times.
+67,0,3,0,35,M,complete task
+67,1,5,0,35,M,complete task
+67,2,8,0,35,M,complete task
+68,0,3,0,40,F,I was asked to choose which type of energy to use against an alien attack.
+68,1,5,0,40,F,I was asked to choose which type of energy to use against an alien attack.
+68,2,8,1,40,F,I was asked to choose which type of energy to use against an alien attack.
+69,0,3,1,54,M,This survey is interesting.
+69,1,5,1,54,M,This survey is interesting.
+69,2,8,1,54,M,This survey is interesting.
+70,0,3,0,58,M,Pick which energy type to protect earth from and alien attack.
+70,1,5,0,58,M,Pick which energy type to protect earth from and alien attack.
+70,2,8,1,58,M,Pick which energy type to protect earth from and alien attack.
+71,0,3,1,33,M,Select the better energy type in each scenario
+71,1,5,1,33,M,Select the better energy type in each scenario
+71,2,8,1,33,M,Select the better energy type in each scenario
+72,0,3,0,36,M,"I was asked to imagine my planet facing an attack, and I am the leader of a scientific team, and I'm to choose which energy type to use in each month."
+72,1,5,0,36,M,"I was asked to imagine my planet facing an attack, and I am the leader of a scientific team, and I'm to choose which energy type to use in each month."
+72,2,8,0,36,M,"I was asked to imagine my planet facing an attack, and I am the leader of a scientific team, and I'm to choose which energy type to use in each month."
+73,0,3,0,36,M,Decide what plan of defense would be better during an attack.
+73,1,5,0,36,M,Decide what plan of defense would be better during an attack.
+73,2,8,1,36,M,Decide what plan of defense would be better during an attack.
+74,0,3,1,57,F,In this survey is very interesting.
+74,1,5,1,57,F,In this survey is very interesting.
+74,2,8,1,57,F,In this survey is very interesting.
+75,0,3,0,30,F,I selected which defence type I would choose.
+75,1,5,0,30,F,I selected which defence type I would choose.
+75,2,8,1,30,F,I selected which defence type I would choose.
+76,0,3,1,30,F,none
+76,1,5,1,30,F,none
+76,2,8,0,30,F,none
+77,0,3,0,46,M,"I watched examples of a defense system being built out, on off of that chose which system would be best at different time frames."
+77,1,5,1,46,M,"I watched examples of a defense system being built out, on off of that chose which system would be best at different time frames."
+77,2,8,1,46,M,"I watched examples of a defense system being built out, on off of that chose which system would be best at different time frames."
+78,0,3,0,39,M,Determining which energy type to use based on the time of attack.
+78,1,5,1,39,M,Determining which energy type to use based on the time of attack.
+78,2,8,1,39,M,Determining which energy type to use based on the time of attack.
+79,0,3,0,35,M,It was to choose the correct energy type for each defense.  I had to base it off of previous results.
+79,1,5,1,35,M,It was to choose the correct energy type for each defense.  I had to base it off of previous results.
+79,2,8,1,35,M,It was to choose the correct energy type for each defense.  I had to base it off of previous results.
+80,0,3,1,33,M,nice
+80,1,5,0,33,M,nice
+80,2,8,1,33,M,nice
+81,0,3,1,39,M,"i was asked to choose which energy system to deploy in defence of the state, based on past performance data"
+81,1,5,1,39,M,"i was asked to choose which energy system to deploy in defence of the state, based on past performance data"
+81,2,8,1,39,M,"i was asked to choose which energy system to deploy in defence of the state, based on past performance data"
+82,0,3,0,56,M,look at increases in strength and choose which defense I would use
+82,1,5,1,56,M,look at increases in strength and choose which defense I would use
+82,2,8,1,56,M,look at increases in strength and choose which defense I would use
+83,0,3,0,37,M,"I had to choose which energy source would help me if an attack occured within several different months, depending on how effective each month was."
+83,1,5,1,37,M,"I had to choose which energy source would help me if an attack occured within several different months, depending on how effective each month was."
+83,2,8,1,37,M,"I had to choose which energy source would help me if an attack occured within several different months, depending on how effective each month was."
+84,0,3,0,32,F,"I viewed examples of how each energy type increased in capability through ten months, and then chose the type that would be most effective in each scenario."
+84,1,5,1,32,F,"I viewed examples of how each energy type increased in capability through ten months, and then chose the type that would be most effective in each scenario."
+84,2,8,1,32,F,"I viewed examples of how each energy type increased in capability through ten months, and then chose the type that would be most effective in each scenario."
+85,0,3,0,38,M,"I must choose the best energy type to power a defense system, aiming to maximize my bonus by selecting the energy type that provides the strongest defense at the time of a potential alien attack, based on its incremental defense capability over time."
+85,1,5,0,38,M,"I must choose the best energy type to power a defense system, aiming to maximize my bonus by selecting the energy type that provides the strongest defense at the time of a potential alien attack, based on its incremental defense capability over time."
+85,2,8,0,38,M,"I must choose the best energy type to power a defense system, aiming to maximize my bonus by selecting the energy type that provides the strongest defense at the time of a potential alien attack, based on its incremental defense capability over time."
+86,0,3,0,40,F,I tried to pick the better source of energy to defend my planet. I looked at a graph over 10 months and decided what would be the better choice.
+86,1,5,1,40,F,I tried to pick the better source of energy to defend my planet. I looked at a graph over 10 months and decided what would be the better choice.
+86,2,8,1,40,F,I tried to pick the better source of energy to defend my planet. I looked at a graph over 10 months and decided what would be the better choice.
+87,0,3,0,41,M,"I learned about different power types to make determinations about which one would perform better in a future alien invasion. I did this over three scenarios where aliens would attack at 3, 5, and 10 months."
+87,1,5,1,41,M,"I learned about different power types to make determinations about which one would perform better in a future alien invasion. I did this over three scenarios where aliens would attack at 3, 5, and 10 months."
+87,2,8,1,41,M,"I learned about different power types to make determinations about which one would perform better in a future alien invasion. I did this over three scenarios where aliens would attack at 3, 5, and 10 months."
+88,0,3,0,47,F,I CHOOSE BETTER ENERGY FIVEN IN THE BAR SCENERY OVER MONTHS
+88,1,5,0,47,F,I CHOOSE BETTER ENERGY FIVEN IN THE BAR SCENERY OVER MONTHS
+88,2,8,0,47,F,I CHOOSE BETTER ENERGY FIVEN IN THE BAR SCENERY OVER MONTHS
+89,0,3,0,56,F,I was to determine with energy type (a or B) I would choose based on when an attach would occur by reviewing examples of ten month periods of previous data.
+89,1,5,1,56,F,I was to determine with energy type (a or B) I would choose based on when an attach would occur by reviewing examples of ten month periods of previous data.
+89,2,8,1,56,F,I was to determine with energy type (a or B) I would choose based on when an attach would occur by reviewing examples of ten month periods of previous data.
+90,0,3,1,37,M,I chose the best energy type to help defend our planted from an alien attack.
+90,1,5,0,37,M,I chose the best energy type to help defend our planted from an alien attack.
+90,2,8,0,37,M,I chose the best energy type to help defend our planted from an alien attack.
+91,0,3,0,65,M,weighing different energy sources and their effectiveness at various future attack points in regard to defense capabilities and choosing the best one for an attack at various future time. points 
+91,1,5,0,65,M,weighing different energy sources and their effectiveness at various future attack points in regard to defense capabilities and choosing the best one for an attack at various future time. points 
+91,2,8,0,65,M,weighing different energy sources and their effectiveness at various future attack points in regard to defense capabilities and choosing the best one for an attack at various future time. points 
+92,0,3,1,64,F,"I reviewed the rules of a game where I must choose between two energy types to power defense systems against an alien attack. The goal is to select the better energy type for different hypothetical scenarios, maximizing my bonus based on defense capabilities at the time of the attack."
+92,1,5,1,64,F,"I reviewed the rules of a game where I must choose between two energy types to power defense systems against an alien attack. The goal is to select the better energy type for different hypothetical scenarios, maximizing my bonus based on defense capabilities at the time of the attack."
+92,2,8,1,64,F,"I reviewed the rules of a game where I must choose between two energy types to power defense systems against an alien attack. The goal is to select the better energy type for different hypothetical scenarios, maximizing my bonus based on defense capabilities at the time of the attack."
+93,0,3,0,41,F,I had to decide which energy source to use for defense. I had to look at the history of the last couple of months.
+93,1,5,0,41,F,I had to decide which energy source to use for defense. I had to look at the history of the last couple of months.
+93,2,8,0,41,F,I had to decide which energy source to use for defense. I had to look at the history of the last couple of months.
+94,0,3,1,29,F,Deciding the better energy source for the current month based on what information that I have previously seen
+94,1,5,1,29,F,Deciding the better energy source for the current month based on what information that I have previously seen
+94,2,8,1,29,F,Deciding the better energy source for the current month based on what information that I have previously seen
+95,0,3,1,33,M,I selected energy types to develop for imminent alien attacks. 
+95,1,5,1,33,M,I selected energy types to develop for imminent alien attacks. 
+95,2,8,0,33,M,I selected energy types to develop for imminent alien attacks. 
+96,0,3,0,60,M,It was an alien attack and we chose between differing energy sources that could ward off the attack.
+96,1,5,0,60,M,It was an alien attack and we chose between differing energy sources that could ward off the attack.
+96,2,8,1,60,M,It was an alien attack and we chose between differing energy sources that could ward off the attack.
+97,0,3,1,36,F,defend a planet
+97,1,5,0,36,F,defend a planet
+97,2,8,1,36,F,defend a planet
+98,0,3,0,37,F,defend a planet based task
+98,1,5,0,37,F,defend a planet based task
+98,2,8,1,37,F,defend a planet based task
+99,0,3,0,47,F,"I had to figure out a power source for defense of the planet b/c aliens are coming. But depending on when they show up, one source would be better than the other."
+99,1,5,1,47,F,"I had to figure out a power source for defense of the planet b/c aliens are coming. But depending on when they show up, one source would be better than the other."
+99,2,8,1,47,F,"I had to figure out a power source for defense of the planet b/c aliens are coming. But depending on when they show up, one source would be better than the other."

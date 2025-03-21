@@ -1,0 +1,604 @@
+startAgent,SubjectID,Trial,t_now,T_end,testTrajIdx,chooseSwitch,Age,Gender,Comments
+velocity,0,0,2,3,1,1,51,F,I recalled which one seemed to provide better protection at different points of time and chose that based on when the attack was going to happen.
+velocity,0,1,2,5,1,0,51,F,I recalled which one seemed to provide better protection at different points of time and chose that based on when the attack was going to happen.
+velocity,0,2,2,8,1,0,51,F,I recalled which one seemed to provide better protection at different points of time and chose that based on when the attack was going to happen.
+velocity,1,0,2,3,2,1,46,M,"If the attack was early, choose B because it's built up. If the attack comes later, choose A because it ends up higher."
+velocity,1,1,2,5,2,1,46,M,"If the attack was early, choose B because it's built up. If the attack comes later, choose A because it ends up higher."
+velocity,1,2,2,8,2,0,46,M,"If the attack was early, choose B because it's built up. If the attack comes later, choose A because it ends up higher."
+velocity,2,0,2,3,0,1,56,F,My strategy was to choose the option that would give me the highest level of defense at the time of the attack.
+velocity,2,1,2,5,0,0,56,F,My strategy was to choose the option that would give me the highest level of defense at the time of the attack.
+velocity,2,2,2,8,0,0,56,F,My strategy was to choose the option that would give me the highest level of defense at the time of the attack.
+velocity,3,0,2,3,2,1,45,M,I wanted to maximize our defense and had to make a desicion on which one would be more powerful during an attack before month 10.
+velocity,3,1,2,5,2,0,45,M,I wanted to maximize our defense and had to make a desicion on which one would be more powerful during an attack before month 10.
+velocity,3,2,2,8,2,0,45,M,I wanted to maximize our defense and had to make a desicion on which one would be more powerful during an attack before month 10.
+velocity,4,0,2,3,1,0,38,M,I tried to rely on how well the bars were moving for Type A to determine if I should stay or switch.
+velocity,4,1,2,5,1,1,38,M,I tried to rely on how well the bars were moving for Type A to determine if I should stay or switch.
+velocity,4,2,2,8,1,0,38,M,I tried to rely on how well the bars were moving for Type A to determine if I should stay or switch.
+velocity,5,0,2,3,2,1,26,Non-binary,"Type A has the most growing capability and always ended up the strongest in the long term, but in the short term, B was stronger for short term attacks (month 4-5 and under)."
+velocity,5,1,2,5,2,1,26,Non-binary,"Type A has the most growing capability and always ended up the strongest in the long term, but in the short term, B was stronger for short term attacks (month 4-5 and under)."
+velocity,5,2,2,8,2,0,26,Non-binary,"Type A has the most growing capability and always ended up the strongest in the long term, but in the short term, B was stronger for short term attacks (month 4-5 and under)."
+velocity,6,0,2,3,2,1,53,M,my strategy was to switch if necessary to maintain the best defense possible.
+velocity,6,1,2,5,2,1,53,M,my strategy was to switch if necessary to maintain the best defense possible.
+velocity,6,2,2,8,2,1,53,M,my strategy was to switch if necessary to maintain the best defense possible.
+velocity,7,0,2,3,2,1,26,M,I chose which one had the larger dark green bar and seemed the most promising. 
+velocity,7,1,2,5,2,1,26,M,I chose which one had the larger dark green bar and seemed the most promising. 
+velocity,7,2,2,8,2,1,26,M,I chose which one had the larger dark green bar and seemed the most promising. 
+velocity,8,0,2,3,0,0,40,F,"I tried to choose the system that would yield the greatest defense capability, given the examples I was shown. Type A seemed to be the best option."
+velocity,8,1,2,5,0,0,40,F,"I tried to choose the system that would yield the greatest defense capability, given the examples I was shown. Type A seemed to be the best option."
+velocity,8,2,2,8,0,0,40,F,"I tried to choose the system that would yield the greatest defense capability, given the examples I was shown. Type A seemed to be the best option."
+velocity,9,0,2,3,2,1,52,F,"I tried to think of what would give me the strongest overall field at the turn the attack would take place, based on how the fields seemed to increase in the examples and the starting levels of each type of energy field."
+velocity,9,1,2,5,2,1,52,F,"I tried to think of what would give me the strongest overall field at the turn the attack would take place, based on how the fields seemed to increase in the examples and the starting levels of each type of energy field."
+velocity,9,2,2,8,2,0,52,F,"I tried to think of what would give me the strongest overall field at the turn the attack would take place, based on how the fields seemed to increase in the examples and the starting levels of each type of energy field."
+velocity,10,0,2,3,2,0,57,F,I used the strong past history of continuing using strategy A to build a stronger defence against alien attacks.
+velocity,10,1,2,5,2,0,57,F,I used the strong past history of continuing using strategy A to build a stronger defence against alien attacks.
+velocity,10,2,2,8,2,0,57,F,I used the strong past history of continuing using strategy A to build a stronger defence against alien attacks.
+velocity,11,0,2,3,0,1,61,F,I wanted to make sure we had a strong defense from the beginning if the attack was early but if the attack was later in the year then I wanted the strongest defense over time
+velocity,11,1,2,5,0,0,61,F,I wanted to make sure we had a strong defense from the beginning if the attack was early but if the attack was later in the year then I wanted the strongest defense over time
+velocity,11,2,2,8,0,0,61,F,I wanted to make sure we had a strong defense from the beginning if the attack was early but if the attack was later in the year then I wanted the strongest defense over time
+velocity,12,0,2,3,1,1,52,M,I looked at the month attack and chose which one would likely be the strongest at that time.
+velocity,12,1,2,5,1,0,52,M,I looked at the month attack and chose which one would likely be the strongest at that time.
+velocity,12,2,2,8,1,0,52,M,I looked at the month attack and chose which one would likely be the strongest at that time.
+velocity,13,0,2,3,0,1,24,F,"I based it off the examples and how if I have more time, Type A seems better for long-term but Type B was better for short term."
+velocity,13,1,2,5,0,0,24,F,"I based it off the examples and how if I have more time, Type A seems better for long-term but Type B was better for short term."
+velocity,13,2,2,8,0,0,24,F,"I based it off the examples and how if I have more time, Type A seems better for long-term but Type B was better for short term."
+velocity,14,0,2,3,2,1,43,M,I was looking for ways to increase my odds to win the maximum bonus! I felt type B was better.
+velocity,14,1,2,5,2,1,43,M,I was looking for ways to increase my odds to win the maximum bonus! I felt type B was better.
+velocity,14,2,2,8,2,0,43,M,I was looking for ways to increase my odds to win the maximum bonus! I felt type B was better.
+velocity,15,0,2,3,0,1,33,M,I chose the one that I thought would be the most powerful by the time of the attack.
+velocity,15,1,2,5,0,0,33,M,I chose the one that I thought would be the most powerful by the time of the attack.
+velocity,15,2,2,8,0,0,33,M,I chose the one that I thought would be the most powerful by the time of the attack.
+velocity,16,0,2,3,1,0,44,F,I thought Type A would be the best strategy overall. 
+velocity,16,1,2,5,1,0,44,F,I thought Type A would be the best strategy overall. 
+velocity,16,2,2,8,1,0,44,F,I thought Type A would be the best strategy overall. 
+velocity,17,0,2,3,0,0,35,M,"The examples showed plan A being crazy strong, so I was really leaning into that."
+velocity,17,1,2,5,0,0,35,M,"The examples showed plan A being crazy strong, so I was really leaning into that."
+velocity,17,2,2,8,0,0,35,M,"The examples showed plan A being crazy strong, so I was really leaning into that."
+velocity,18,0,2,3,0,1,61,F,"Given the examples of how the amount of capacity each energy type had at different points in time, I chose the type of energy that I thought would have the highest capacity at 3, 5 and 8 months."
+velocity,18,1,2,5,0,1,61,F,"Given the examples of how the amount of capacity each energy type had at different points in time, I chose the type of energy that I thought would have the highest capacity at 3, 5 and 8 months."
+velocity,18,2,2,8,0,0,61,F,"Given the examples of how the amount of capacity each energy type had at different points in time, I chose the type of energy that I thought would have the highest capacity at 3, 5 and 8 months."
+velocity,19,0,2,3,0,1,37,F,"It depends on the month of possible attack. I felt A had the potential to build more energy over the first few months after 3, so for attacks before 6-7 months I chose A."
+velocity,19,1,2,5,0,0,37,F,"It depends on the month of possible attack. I felt A had the potential to build more energy over the first few months after 3, so for attacks before 6-7 months I chose A."
+velocity,19,2,2,8,0,0,37,F,"It depends on the month of possible attack. I felt A had the potential to build more energy over the first few months after 3, so for attacks before 6-7 months I chose A."
+velocity,20,0,2,3,2,0,58,F,Trying to have the strongest defense for the longest period of time.
+velocity,20,1,2,5,2,0,58,F,Trying to have the strongest defense for the longest period of time.
+velocity,20,2,2,8,2,0,58,F,Trying to have the strongest defense for the longest period of time.
+velocity,21,0,2,3,1,0,33,F,continue with type a cause it had the most growth in the examples
+velocity,21,1,2,5,1,0,33,F,continue with type a cause it had the most growth in the examples
+velocity,21,2,2,8,1,0,33,F,continue with type a cause it had the most growth in the examples
+velocity,22,0,2,3,2,1,46,M,I noticed A seemed to really increase after the second month but then leveled off. So if the attack was early I stayed with A if the attack was late I went with B.
+velocity,22,1,2,5,2,0,46,M,I noticed A seemed to really increase after the second month but then leveled off. So if the attack was early I stayed with A if the attack was late I went with B.
+velocity,22,2,2,8,2,0,46,M,I noticed A seemed to really increase after the second month but then leveled off. So if the attack was early I stayed with A if the attack was late I went with B.
+velocity,23,0,2,3,0,1,62,M,i went with my gut according to previous examples
+velocity,23,1,2,5,0,0,62,M,i went with my gut according to previous examples
+velocity,23,2,2,8,0,0,62,M,i went with my gut according to previous examples
+velocity,24,0,2,3,1,0,61,F,It seemed like it was ALWAYS better to stick with plan A. Plan B NEVER exceeded plan A.
+velocity,24,1,2,5,1,0,61,F,It seemed like it was ALWAYS better to stick with plan A. Plan B NEVER exceeded plan A.
+velocity,24,2,2,8,1,0,61,F,It seemed like it was ALWAYS better to stick with plan A. Plan B NEVER exceeded plan A.
+velocity,25,0,2,3,1,1,60,F,"To utilize the source with the strongest power available at the time of the attack, then I switched to the source that had stronger sustainability in the later months."
+velocity,25,1,2,5,1,1,60,F,"To utilize the source with the strongest power available at the time of the attack, then I switched to the source that had stronger sustainability in the later months."
+velocity,25,2,2,8,1,0,60,F,"To utilize the source with the strongest power available at the time of the attack, then I switched to the source that had stronger sustainability in the later months."
+velocity,26,0,2,3,2,1,44,F,"I relied on the data, which showed that A was usually better in the long run, but B may be better for attacks happening early."
+velocity,26,1,2,5,2,0,44,F,"I relied on the data, which showed that A was usually better in the long run, but B may be better for attacks happening early."
+velocity,26,2,2,8,2,0,44,F,"I relied on the data, which showed that A was usually better in the long run, but B may be better for attacks happening early."
+velocity,27,0,2,3,2,0,36,F,I just went with my intuition rather than an actual strategy.
+velocity,27,1,2,5,2,1,36,F,I just went with my intuition rather than an actual strategy.
+velocity,27,2,2,8,2,1,36,F,I just went with my intuition rather than an actual strategy.
+velocity,28,0,2,3,2,0,40,M,My strategy was to see which energy yielded the most advanced defense at the time of attack.
+velocity,28,1,2,5,2,0,40,M,My strategy was to see which energy yielded the most advanced defense at the time of attack.
+velocity,28,2,2,8,2,0,40,M,My strategy was to see which energy yielded the most advanced defense at the time of attack.
+velocity,29,0,2,3,0,0,33,M,strategy A took longer to build but was strong so i chose that if the attack happened further down the line
+velocity,29,1,2,5,0,1,33,M,strategy A took longer to build but was strong so i chose that if the attack happened further down the line
+velocity,29,2,2,8,0,0,33,M,strategy A took longer to build but was strong so i chose that if the attack happened further down the line
+velocity,30,0,2,3,1,1,45,M,Simply observe which energy source provided the strongest defense at any given month by comparing the bars.
+velocity,30,1,2,5,1,0,45,M,Simply observe which energy source provided the strongest defense at any given month by comparing the bars.
+velocity,30,2,2,8,1,0,45,M,Simply observe which energy source provided the strongest defense at any given month by comparing the bars.
+velocity,31,0,2,3,0,1,31,F,I picked the one that would have the best chance at the time of attack.
+velocity,31,1,2,5,0,0,31,F,I picked the one that would have the best chance at the time of attack.
+velocity,31,2,2,8,0,0,31,F,I picked the one that would have the best chance at the time of attack.
+velocity,32,0,2,3,2,1,36,F,I choose based on the information I was shown in the first two months. The starting bar for B was so far ahead that I thought A would likely only catch up with B by the time of the attack but B would build itself well ahead of where A would end up by then.
+velocity,32,1,2,5,2,1,36,F,I choose based on the information I was shown in the first two months. The starting bar for B was so far ahead that I thought A would likely only catch up with B by the time of the attack but B would build itself well ahead of where A would end up by then.
+velocity,32,2,2,8,2,1,36,F,I choose based on the information I was shown in the first two months. The starting bar for B was so far ahead that I thought A would likely only catch up with B by the time of the attack but B would build itself well ahead of where A would end up by then.
+velocity,33,0,2,3,1,0,35,M,Go with the energy that provides the strongest defense
+velocity,33,1,2,5,1,1,35,M,Go with the energy that provides the strongest defense
+velocity,33,2,2,8,1,0,35,M,Go with the energy that provides the strongest defense
+velocity,34,0,2,3,2,1,29,M,I based it off the timing and relative preparation in accordance to when I was going to be attacked.
+velocity,34,1,2,5,2,1,29,M,I based it off the timing and relative preparation in accordance to when I was going to be attacked.
+velocity,34,2,2,8,2,1,29,M,I based it off the timing and relative preparation in accordance to when I was going to be attacked.
+velocity,35,0,2,3,1,1,49,M,After seeing the second demo my strategy was simply to choose Defense B if the attack was in the 3rd or 4th month.  But I would pick Defense A if it was month 5 or later.
+velocity,35,1,2,5,1,0,49,M,After seeing the second demo my strategy was simply to choose Defense B if the attack was in the 3rd or 4th month.  But I would pick Defense A if it was month 5 or later.
+velocity,35,2,2,8,1,0,49,M,After seeing the second demo my strategy was simply to choose Defense B if the attack was in the 3rd or 4th month.  But I would pick Defense A if it was month 5 or later.
+velocity,36,0,2,3,0,1,21,M,"If the months were below 4 or 5 I would choose B, if the month value was above 4 or 5 I would choose B. "
+velocity,36,1,2,5,0,0,21,M,"If the months were below 4 or 5 I would choose B, if the month value was above 4 or 5 I would choose B. "
+velocity,36,2,2,8,0,0,21,M,"If the months were below 4 or 5 I would choose B, if the month value was above 4 or 5 I would choose B. "
+velocity,37,0,2,3,2,0,38,M,"Once I committed to one defense method, I wanted to remain consistent as the idea of starting over was not appealing to me. "
+velocity,37,1,2,5,2,0,38,M,"Once I committed to one defense method, I wanted to remain consistent as the idea of starting over was not appealing to me. "
+velocity,37,2,2,8,2,0,38,M,"Once I committed to one defense method, I wanted to remain consistent as the idea of starting over was not appealing to me. "
+velocity,38,0,2,3,0,1,44,F,"I saw how much the bar increased or not. Since I wanted the strongest defense, I chose the type went the furthest. "
+velocity,38,1,2,5,0,0,44,F,"I saw how much the bar increased or not. Since I wanted the strongest defense, I chose the type went the furthest. "
+velocity,38,2,2,8,0,1,44,F,"I saw how much the bar increased or not. Since I wanted the strongest defense, I chose the type went the furthest. "
+velocity,39,0,2,3,2,1,34,M,It mostly depends on when the attack happens
+velocity,39,1,2,5,2,0,34,M,It mostly depends on when the attack happens
+velocity,39,2,2,8,2,0,34,M,It mostly depends on when the attack happens
+velocity,40,0,2,3,1,0,32,F,I always think slow and steady is best.
+velocity,40,1,2,5,1,0,32,F,I always think slow and steady is best.
+velocity,40,2,2,8,1,0,32,F,I always think slow and steady is best.
+velocity,41,0,2,3,1,1,32,M,I judged off of the simulations we ran in order to determine which energy development I thought would be the most efficient. 
+velocity,41,1,2,5,1,0,32,M,I judged off of the simulations we ran in order to determine which energy development I thought would be the most efficient. 
+velocity,41,2,2,8,1,0,32,M,I judged off of the simulations we ran in order to determine which energy development I thought would be the most efficient. 
+velocity,42,0,2,3,2,1,45,M,"Using past history and my knowledge of when the attack occurred, I tried to calculate which energy source would be strongest during the attack month."
+velocity,42,1,2,5,2,0,45,M,"Using past history and my knowledge of when the attack occurred, I tried to calculate which energy source would be strongest during the attack month."
+velocity,42,2,2,8,2,1,45,M,"Using past history and my knowledge of when the attack occurred, I tried to calculate which energy source would be strongest during the attack month."
+velocity,43,0,2,3,0,1,32,Prefer not to say,There was an analyzing of certain procedures that determined the amount of available capabilities of the energy systems after a certain amount of allotted time had elapsed.
+velocity,43,1,2,5,0,0,32,Prefer not to say,There was an analyzing of certain procedures that determined the amount of available capabilities of the energy systems after a certain amount of allotted time had elapsed.
+velocity,43,2,2,8,0,0,32,Prefer not to say,There was an analyzing of certain procedures that determined the amount of available capabilities of the energy systems after a certain amount of allotted time had elapsed.
+velocity,44,0,2,3,0,1,23,F,"For months after month 6, I felt it was worth it to remain with attack A as it ended up with the longest possible bar. For months before month 6, I switched to attack B, as the current dark green bar was longer than any potential growth seen in attack A up until that point."
+velocity,44,1,2,5,0,1,23,F,"For months after month 6, I felt it was worth it to remain with attack A as it ended up with the longest possible bar. For months before month 6, I switched to attack B, as the current dark green bar was longer than any potential growth seen in attack A up until that point."
+velocity,44,2,2,8,0,0,23,F,"For months after month 6, I felt it was worth it to remain with attack A as it ended up with the longest possible bar. For months before month 6, I switched to attack B, as the current dark green bar was longer than any potential growth seen in attack A up until that point."
+velocity,45,0,2,3,1,0,32,M,See how much example A is growing and make a decision from there.
+velocity,45,1,2,5,1,0,32,M,See how much example A is growing and make a decision from there.
+velocity,45,2,2,8,1,1,32,M,See how much example A is growing and make a decision from there.
+velocity,46,0,2,3,0,1,40,F,the longset linee
+velocity,46,1,2,5,0,1,40,F,the longset linee
+velocity,46,2,2,8,0,1,40,F,the longset linee
+velocity,47,0,2,3,0,0,45,F,System A seemed to work fastest.
+velocity,47,1,2,5,0,0,45,F,System A seemed to work fastest.
+velocity,47,2,2,8,0,1,45,F,System A seemed to work fastest.
+velocity,48,0,2,3,1,1,42,F,"Type A was stronger in the long run, and B in the shorter run. So if the attach was coming before month 4 (when both were the same strength) Type B was the better choice, Otherwise, Type A was better."
+velocity,48,1,2,5,1,0,42,F,"Type A was stronger in the long run, and B in the shorter run. So if the attach was coming before month 4 (when both were the same strength) Type B was the better choice, Otherwise, Type A was better."
+velocity,48,2,2,8,1,0,42,F,"Type A was stronger in the long run, and B in the shorter run. So if the attach was coming before month 4 (when both were the same strength) Type B was the better choice, Otherwise, Type A was better."
+velocity,49,0,2,3,2,1,46,F,I watched the bars to see which one I thought was going to go up faster. 
+velocity,49,1,2,5,2,1,46,F,I watched the bars to see which one I thought was going to go up faster. 
+velocity,49,2,2,8,2,1,46,F,I watched the bars to see which one I thought was going to go up faster. 
+velocity,50,0,2,3,1,1,35,M,Find the break-even point between the two systems and select accordingly
+velocity,50,1,2,5,1,0,35,M,Find the break-even point between the two systems and select accordingly
+velocity,50,2,2,8,1,0,35,M,Find the break-even point between the two systems and select accordingly
+velocity,51,0,2,3,2,1,60,M,early months use b later months use a
+velocity,51,1,2,5,2,0,60,M,early months use b later months use a
+velocity,51,2,2,8,2,0,60,M,early months use b later months use a
+velocity,52,0,2,3,2,1,37,M,Use historical data on monthly upgrades and choose the best defense given the month of the attack
+velocity,52,1,2,5,2,0,37,M,Use historical data on monthly upgrades and choose the best defense given the month of the attack
+velocity,52,2,2,8,2,0,37,M,Use historical data on monthly upgrades and choose the best defense given the month of the attack
+velocity,53,0,2,3,2,1,36,F,"If the attack was coming in less than 5 months, I felt it was best to take option B because it was already the longest because of the starting spot. If the attack was greater than 5 months then I chose option A because it grows the furthest over time."
+velocity,53,1,2,5,2,1,36,F,"If the attack was coming in less than 5 months, I felt it was best to take option B because it was already the longest because of the starting spot. If the attack was greater than 5 months then I chose option A because it grows the furthest over time."
+velocity,53,2,2,8,2,0,36,F,"If the attack was coming in less than 5 months, I felt it was best to take option B because it was already the longest because of the starting spot. If the attack was greater than 5 months then I chose option A because it grows the furthest over time."
+velocity,54,0,2,3,2,1,40,F,My strategy was to pick the type that would be the strongest on the month in question.
+velocity,54,1,2,5,2,0,40,F,My strategy was to pick the type that would be the strongest on the month in question.
+velocity,54,2,2,8,2,0,40,F,My strategy was to pick the type that would be the strongest on the month in question.
+velocity,55,0,2,3,2,0,48,M,I tried to guess which type would be better during the month the planet was attacked
+velocity,55,1,2,5,2,0,48,M,I tried to guess which type would be better during the month the planet was attacked
+velocity,55,2,2,8,2,1,48,M,I tried to guess which type would be better during the month the planet was attacked
+velocity,56,0,2,3,0,1,47,F,"depending on the month of the attack, I chose the one that would be at its maximum at the time of attack"
+velocity,56,1,2,5,0,0,47,F,"depending on the month of the attack, I chose the one that would be at its maximum at the time of attack"
+velocity,56,2,2,8,0,0,47,F,"depending on the month of the attack, I chose the one that would be at its maximum at the time of attack"
+velocity,57,0,2,3,1,1,46,F,"I preferred system A for attacks after 4 months, as it had more defense available. System B was better for attacks in month 3."
+velocity,57,1,2,5,1,0,46,F,"I preferred system A for attacks after 4 months, as it had more defense available. System B was better for attacks in month 3."
+velocity,57,2,2,8,1,0,46,F,"I preferred system A for attacks after 4 months, as it had more defense available. System B was better for attacks in month 3."
+velocity,58,0,2,3,2,1,44,F,I tried to look for patterns that would help me choose.
+velocity,58,1,2,5,2,1,44,F,I tried to look for patterns that would help me choose.
+velocity,58,2,2,8,2,1,44,F,I tried to look for patterns that would help me choose.
+velocity,59,0,2,3,0,0,44,F,I looked at all the examples and used that information to make my decisions.
+velocity,59,1,2,5,0,0,44,F,I looked at all the examples and used that information to make my decisions.
+velocity,59,2,2,8,0,0,44,F,I looked at all the examples and used that information to make my decisions.
+velocity,60,0,2,3,2,0,34,F,"For the most part, I felt as though staying with type A had a better outcome for most of the differing times of attack. "
+velocity,60,1,2,5,2,0,34,F,"For the most part, I felt as though staying with type A had a better outcome for most of the differing times of attack. "
+velocity,60,2,2,8,2,0,34,F,"For the most part, I felt as though staying with type A had a better outcome for most of the differing times of attack. "
+velocity,61,0,2,3,0,1,78,M,"If the attack was close, use plan B.  If the attack was five months or longer continue with plan A."
+velocity,61,1,2,5,0,0,78,M,"If the attack was close, use plan B.  If the attack was five months or longer continue with plan A."
+velocity,61,2,2,8,0,0,78,M,"If the attack was close, use plan B.  If the attack was five months or longer continue with plan A."
+velocity,62,0,2,3,0,1,33,M,"I tried to see when the cutoff point for each source was for it to be or not be useful. In this case, it was around the 6 month mark one way or the other"
+velocity,62,1,2,5,0,1,33,M,"I tried to see when the cutoff point for each source was for it to be or not be useful. In this case, it was around the 6 month mark one way or the other"
+velocity,62,2,2,8,0,0,33,M,"I tried to see when the cutoff point for each source was for it to be or not be useful. In this case, it was around the 6 month mark one way or the other"
+velocity,63,0,2,3,0,0,25,F,Sticking with A after seeing multiple examples
+velocity,63,1,2,5,0,0,25,F,Sticking with A after seeing multiple examples
+velocity,63,2,2,8,0,0,25,F,Sticking with A after seeing multiple examples
+velocity,64,0,2,3,1,0,60,F,My strategy was to choose whether to keep or switch energy types to make the defense as strong as possible before the attack.
+velocity,64,1,2,5,1,0,60,F,My strategy was to choose whether to keep or switch energy types to make the defense as strong as possible before the attack.
+velocity,64,2,2,8,1,0,60,F,My strategy was to choose whether to keep or switch energy types to make the defense as strong as possible before the attack.
+velocity,65,0,2,3,0,1,41,M,"If the attack would occur in 4 months or fewer, go with B, otherwise A will catch up and go beyond"
+velocity,65,1,2,5,0,0,41,M,"If the attack would occur in 4 months or fewer, go with B, otherwise A will catch up and go beyond"
+velocity,65,2,2,8,0,0,41,M,"If the attack would occur in 4 months or fewer, go with B, otherwise A will catch up and go beyond"
+velocity,66,0,2,3,1,1,48,M,I estimated how strong type A would be against what type B already was.
+velocity,66,1,2,5,1,1,48,M,I estimated how strong type A would be against what type B already was.
+velocity,66,2,2,8,1,0,48,M,I estimated how strong type A would be against what type B already was.
+velocity,67,0,2,3,2,1,34,M,I tried to build my defense force by switching the types depending on how much they were built up each time.
+velocity,67,1,2,5,2,1,34,M,I tried to build my defense force by switching the types depending on how much they were built up each time.
+velocity,67,2,2,8,2,0,34,M,I tried to build my defense force by switching the types depending on how much they were built up each time.
+velocity,68,0,2,3,1,1,46,M,"anything over 5months should be energy type A, less than 5months would be type B"
+velocity,68,1,2,5,1,0,46,M,"anything over 5months should be energy type A, less than 5months would be type B"
+velocity,68,2,2,8,1,0,46,M,"anything over 5months should be energy type A, less than 5months would be type B"
+velocity,69,0,2,3,0,1,56,F,I tried to keep in mind what level the energy was at when the month of the attack happened.
+velocity,69,1,2,5,0,1,56,F,I tried to keep in mind what level the energy was at when the month of the attack happened.
+velocity,69,2,2,8,0,0,56,F,I tried to keep in mind what level the energy was at when the month of the attack happened.
+velocity,70,0,2,3,0,1,36,F,I did not have a strategy. 
+velocity,70,1,2,5,0,1,36,F,I did not have a strategy. 
+velocity,70,2,2,8,0,0,36,F,I did not have a strategy. 
+velocity,71,0,2,3,2,1,43,F,I went with the strongest bar at the time of attack
+velocity,71,1,2,5,2,0,43,F,I went with the strongest bar at the time of attack
+velocity,71,2,2,8,2,0,43,F,I went with the strongest bar at the time of attack
+velocity,72,0,2,3,1,1,34,F,I just though I would try them both out and see what would happen.
+velocity,72,1,2,5,1,1,34,F,I just though I would try them both out and see what would happen.
+velocity,72,2,2,8,1,0,34,F,I just though I would try them both out and see what would happen.
+velocity,73,0,2,3,0,1,24,M,I counted the months and looked at the development graphs. I then chose the most effective energy type in terms of protection.
+velocity,73,1,2,5,0,0,24,M,I counted the months and looked at the development graphs. I then chose the most effective energy type in terms of protection.
+velocity,73,2,2,8,0,0,24,M,I counted the months and looked at the development graphs. I then chose the most effective energy type in terms of protection.
+velocity,74,0,2,3,2,1,39,F,Switch to B if the attack was occurring before month six otherwise stay with A
+velocity,74,1,2,5,2,1,39,F,Switch to B if the attack was occurring before month six otherwise stay with A
+velocity,74,2,2,8,2,0,39,F,Switch to B if the attack was occurring before month six otherwise stay with A
+velocity,75,0,2,3,2,0,38,M,I look at all the months on both energies and pick the one that would be the strongest.
+velocity,75,1,2,5,2,0,38,M,I look at all the months on both energies and pick the one that would be the strongest.
+velocity,75,2,2,8,2,0,38,M,I look at all the months on both energies and pick the one that would be the strongest.
+velocity,76,0,2,3,0,1,34,F,I looked at how far out the attack would be. If it was farther out I stayed with energy source A because it would get stronger farther out. If closer I would switch to B because it started stronger.
+velocity,76,1,2,5,0,0,34,F,I looked at how far out the attack would be. If it was farther out I stayed with energy source A because it would get stronger farther out. If closer I would switch to B because it started stronger.
+velocity,76,2,2,8,0,0,34,F,I looked at how far out the attack would be. If it was farther out I stayed with energy source A because it would get stronger farther out. If closer I would switch to B because it started stronger.
+velocity,77,0,2,3,2,0,36,F,"I paid attention to when it said the alien attack would happen, and if the energy source would work well in tandem with that, rather than boosting unnecessarily afterwards, that would be the more effective decision."
+velocity,77,1,2,5,2,1,36,F,"I paid attention to when it said the alien attack would happen, and if the energy source would work well in tandem with that, rather than boosting unnecessarily afterwards, that would be the more effective decision."
+velocity,77,2,2,8,2,1,36,F,"I paid attention to when it said the alien attack would happen, and if the energy source would work well in tandem with that, rather than boosting unnecessarily afterwards, that would be the more effective decision."
+velocity,78,0,2,3,1,1,45,M,My strategy was to compare the two energy types month by month so I could choose which energy type would be better to use at any given time.
+velocity,78,1,2,5,1,0,45,M,My strategy was to compare the two energy types month by month so I could choose which energy type would be better to use at any given time.
+velocity,78,2,2,8,1,0,45,M,My strategy was to compare the two energy types month by month so I could choose which energy type would be better to use at any given time.
+velocity,79,0,2,3,2,0,29,F,Thinking about the probability of each months attack
+velocity,79,1,2,5,2,0,29,F,Thinking about the probability of each months attack
+velocity,79,2,2,8,2,1,29,F,Thinking about the probability of each months attack
+velocity,80,0,2,3,1,1,43,M,"My strategy was based on the month of the attack. If it happened later, the growth pattern of type A made clear it was better for defense, whereas type B was better for earlier months."
+velocity,80,1,2,5,1,1,43,M,"My strategy was based on the month of the attack. If it happened later, the growth pattern of type A made clear it was better for defense, whereas type B was better for earlier months."
+velocity,80,2,2,8,1,0,43,M,"My strategy was based on the month of the attack. If it happened later, the growth pattern of type A made clear it was better for defense, whereas type B was better for earlier months."
+velocity,81,0,2,3,2,1,61,F,I paid attention to when the attack would take place and chose the system that would be strongest at that point based on the examples given to me prior to the actual experiment.
+velocity,81,1,2,5,2,1,61,F,I paid attention to when the attack would take place and chose the system that would be strongest at that point based on the examples given to me prior to the actual experiment.
+velocity,81,2,2,8,2,0,61,F,I paid attention to when the attack would take place and chose the system that would be strongest at that point based on the examples given to me prior to the actual experiment.
+velocity,82,0,2,3,1,1,27,F,"My strategy is to analyze the development patterns of both energy types, comparing their starting capabilities and growth rates, to determine the optimal point to either continue with Type A or switch to Type B, ensuring maximum defense capability by the time of a potential attack."
+velocity,82,1,2,5,1,0,27,F,"My strategy is to analyze the development patterns of both energy types, comparing their starting capabilities and growth rates, to determine the optimal point to either continue with Type A or switch to Type B, ensuring maximum defense capability by the time of a potential attack."
+velocity,82,2,2,8,1,0,27,F,"My strategy is to analyze the development patterns of both energy types, comparing their starting capabilities and growth rates, to determine the optimal point to either continue with Type A or switch to Type B, ensuring maximum defense capability by the time of a potential attack."
+velocity,83,0,2,3,0,1,46,F,Best strategy was find the best defense
+velocity,83,1,2,5,0,1,46,F,Best strategy was find the best defense
+velocity,83,2,2,8,0,0,46,F,Best strategy was find the best defense
+velocity,84,0,2,3,0,1,34,F,if the attack was coming soon i chose option B if the attack was several months off i chose option A
+velocity,84,1,2,5,0,1,34,F,if the attack was coming soon i chose option B if the attack was several months off i chose option A
+velocity,84,2,2,8,0,0,34,F,if the attack was coming soon i chose option B if the attack was several months off i chose option A
+velocity,85,0,2,3,0,1,30,M,"I chose my type of energy based on past examples. If the aliens attacked early, then type B was better, but if it was later on, then type A was better for the long run."
+velocity,85,1,2,5,0,0,30,M,"I chose my type of energy based on past examples. If the aliens attacked early, then type B was better, but if it was later on, then type A was better for the long run."
+velocity,85,2,2,8,0,0,30,M,"I chose my type of energy based on past examples. If the aliens attacked early, then type B was better, but if it was later on, then type A was better for the long run."
+velocity,86,0,2,3,0,1,44,M,average out the time until attack versus the time to build a weapon
+velocity,86,1,2,5,0,1,44,M,average out the time until attack versus the time to build a weapon
+velocity,86,2,2,8,0,0,44,M,average out the time until attack versus the time to build a weapon
+velocity,87,0,2,3,1,1,44,F,"In each example, I tried to see which energy type's bar was longer at each month. "
+velocity,87,1,2,5,1,0,44,F,"In each example, I tried to see which energy type's bar was longer at each month. "
+velocity,87,2,2,8,1,0,44,F,"In each example, I tried to see which energy type's bar was longer at each month. "
+velocity,88,0,2,3,0,1,37,F,It appeared to me that Type A offered a better defense in the long term but Type B sometimes provided a better defense in the short term.
+velocity,88,1,2,5,0,0,37,F,It appeared to me that Type A offered a better defense in the long term but Type B sometimes provided a better defense in the short term.
+velocity,88,2,2,8,0,0,37,F,It appeared to me that Type A offered a better defense in the long term but Type B sometimes provided a better defense in the short term.
+velocity,89,0,2,3,2,1,40,F,I tried to pick the winning round so that my defense would hold up.
+velocity,89,1,2,5,2,0,40,F,I tried to pick the winning round so that my defense would hold up.
+velocity,89,2,2,8,2,0,40,F,I tried to pick the winning round so that my defense would hold up.
+velocity,90,0,2,3,1,1,36,M,"choosing B for any attack before month 5, and staying with A for any attack after"
+velocity,90,1,2,5,1,0,36,M,"choosing B for any attack before month 5, and staying with A for any attack after"
+velocity,90,2,2,8,1,0,36,M,"choosing B for any attack before month 5, and staying with A for any attack after"
+velocity,91,0,2,3,0,1,46,M,"It seemed that if the attack happened before the four-month mark, I was better off switching to B.  Anything after four months and sticking with A resulted in the higher defenses."
+velocity,91,1,2,5,0,0,46,M,"It seemed that if the attack happened before the four-month mark, I was better off switching to B.  Anything after four months and sticking with A resulted in the higher defenses."
+velocity,91,2,2,8,0,0,46,M,"It seemed that if the attack happened before the four-month mark, I was better off switching to B.  Anything after four months and sticking with A resulted in the higher defenses."
+velocity,92,0,2,3,2,1,39,F,Patience is the strategy I used.
+velocity,92,1,2,5,2,0,39,F,Patience is the strategy I used.
+velocity,92,2,2,8,2,0,39,F,Patience is the strategy I used.
+velocity,93,0,2,3,0,0,33,F,I looked at each month and decided which energy was working better and would be better.
+velocity,93,1,2,5,0,0,33,F,I looked at each month and decided which energy was working better and would be better.
+velocity,93,2,2,8,0,1,33,F,I looked at each month and decided which energy was working better and would be better.
+velocity,94,0,2,3,2,0,40,F,"A was strong in the beginning and end, B was stronger in the middle."
+velocity,94,1,2,5,2,1,40,F,"A was strong in the beginning and end, B was stronger in the middle."
+velocity,94,2,2,8,2,0,40,F,"A was strong in the beginning and end, B was stronger in the middle."
+velocity,95,0,2,3,0,0,40,F,I noticed that B was weakened towards the end of month 7
+velocity,95,1,2,5,0,0,40,F,I noticed that B was weakened towards the end of month 7
+velocity,95,2,2,8,0,1,40,F,I noticed that B was weakened towards the end of month 7
+velocity,96,0,2,3,0,1,42,M,"It seemed like type B was the best for the first 3 months, it was close for month 4, and then A would be the best for anything later."
+velocity,96,1,2,5,0,0,42,M,"It seemed like type B was the best for the first 3 months, it was close for month 4, and then A would be the best for anything later."
+velocity,96,2,2,8,0,0,42,M,"It seemed like type B was the best for the first 3 months, it was close for month 4, and then A would be the best for anything later."
+velocity,97,0,2,3,0,1,26,M,"I noticed that Type A works better earlier on, and Type B works better later on."
+velocity,97,1,2,5,0,0,26,M,"I noticed that Type A works better earlier on, and Type B works better later on."
+velocity,97,2,2,8,0,0,26,M,"I noticed that Type A works better earlier on, and Type B works better later on."
+velocity,98,0,2,3,0,1,60,F,It seemed to me that if the attack happened early it was smart to switch but if later it was better to stick to A because it got stronger in the long run.
+velocity,98,1,2,5,0,0,60,F,It seemed to me that if the attack happened early it was smart to switch but if later it was better to stick to A because it got stronger in the long run.
+velocity,98,2,2,8,0,0,60,F,It seemed to me that if the attack happened early it was smart to switch but if later it was better to stick to A because it got stronger in the long run.
+velocity,99,0,2,3,1,1,28,F,"If the attack was going to happen soon, then I went with energy source B since you start off with more. If the attack happens quite a few months later, then I went with source A since that one builds up quicker."
+velocity,99,1,2,5,1,0,28,F,"If the attack was going to happen soon, then I went with energy source B since you start off with more. If the attack happens quite a few months later, then I went with source A since that one builds up quicker."
+velocity,99,2,2,8,1,0,28,F,"If the attack was going to happen soon, then I went with energy source B since you start off with more. If the attack happens quite a few months later, then I went with source A since that one builds up quicker."
+exploitation,0,0,2,3,2,0,73,F,Knowing when the attack would happen was the key for me.  System 2 was better after month 6.
+exploitation,0,1,2,5,2,0,73,F,Knowing when the attack would happen was the key for me.  System 2 was better after month 6.
+exploitation,0,2,2,8,2,1,73,F,Knowing when the attack would happen was the key for me.  System 2 was better after month 6.
+exploitation,1,0,2,3,0,0,47,M,I looked at the energy production vs. time to pick the most energy given the attack month
+exploitation,1,1,2,5,0,0,47,M,I looked at the energy production vs. time to pick the most energy given the attack month
+exploitation,1,2,2,8,0,1,47,M,I looked at the energy production vs. time to pick the most energy given the attack month
+exploitation,2,0,2,3,0,0,44,M,I used a combination based on the practice scenarios presented in the beginning of the test.
+exploitation,2,1,2,5,0,1,44,M,I used a combination based on the practice scenarios presented in the beginning of the test.
+exploitation,2,2,2,8,0,1,44,M,I used a combination based on the practice scenarios presented in the beginning of the test.
+exploitation,3,0,2,3,2,0,40,F,Watch and read all the examples carefully and follow instructions. 
+exploitation,3,1,2,5,2,1,40,F,Watch and read all the examples carefully and follow instructions. 
+exploitation,3,2,2,8,2,1,40,F,Watch and read all the examples carefully and follow instructions. 
+exploitation,4,0,2,3,1,0,40,M,It seemed type B speed up quickly near the later stages so I waited to switch when the attack was in a later month.
+exploitation,4,1,2,5,1,0,40,M,It seemed type B speed up quickly near the later stages so I waited to switch when the attack was in a later month.
+exploitation,4,2,2,8,1,1,40,M,It seemed type B speed up quickly near the later stages so I waited to switch when the attack was in a later month.
+exploitation,5,0,2,3,1,0,43,F,I assumed that anything beyond 3 months would give the alternate energy source enough time to catch up based on the examples given 
+exploitation,5,1,2,5,1,0,43,F,I assumed that anything beyond 3 months would give the alternate energy source enough time to catch up based on the examples given 
+exploitation,5,2,2,8,1,1,43,F,I assumed that anything beyond 3 months would give the alternate energy source enough time to catch up based on the examples given 
+exploitation,6,0,2,3,0,0,42,F,I went with system A because it had the strongest level of known certain defense ability even though system B had the greater potential. You have to know for sure what you have.
+exploitation,6,1,2,5,0,0,42,F,I went with system A because it had the strongest level of known certain defense ability even though system B had the greater potential. You have to know for sure what you have.
+exploitation,6,2,2,8,0,0,42,F,I went with system A because it had the strongest level of known certain defense ability even though system B had the greater potential. You have to know for sure what you have.
+exploitation,7,0,2,3,2,1,55,F,Making the most out of my decisions.
+exploitation,7,1,2,5,2,0,55,F,Making the most out of my decisions.
+exploitation,7,2,2,8,2,0,55,F,Making the most out of my decisions.
+exploitation,8,0,2,3,0,0,40,F,"I noticed that at month 7, Type B outperformed Type A so I would choose Type B for any attack at month 7 or later."
+exploitation,8,1,2,5,0,0,40,F,"I noticed that at month 7, Type B outperformed Type A so I would choose Type B for any attack at month 7 or later."
+exploitation,8,2,2,8,0,1,40,F,"I noticed that at month 7, Type B outperformed Type A so I would choose Type B for any attack at month 7 or later."
+exploitation,9,0,2,3,2,0,55,M,I tried to maximize the defense capability based on the timing of attack by determining the level of defense capability at the time of attack.
+exploitation,9,1,2,5,2,0,55,M,I tried to maximize the defense capability based on the timing of attack by determining the level of defense capability at the time of attack.
+exploitation,9,2,2,8,2,1,55,M,I tried to maximize the defense capability based on the timing of attack by determining the level of defense capability at the time of attack.
+exploitation,10,0,2,3,2,0,22,F,I tried to remember about what time the energies got equal and what times one energy was better than the other so i could choose the best defense energy for the time of the attack.
+exploitation,10,1,2,5,2,0,22,F,I tried to remember about what time the energies got equal and what times one energy was better than the other so i could choose the best defense energy for the time of the attack.
+exploitation,10,2,2,8,2,1,22,F,I tried to remember about what time the energies got equal and what times one energy was better than the other so i could choose the best defense energy for the time of the attack.
+exploitation,11,0,2,3,2,0,50,F,"I based on my decision solely on when the attack happened. If it happened earlier during the 10-month period, I chose A since its defense capacity was much higher, if it were to happen later, I figured the energy source B is a better choice."
+exploitation,11,1,2,5,2,0,50,F,"I based on my decision solely on when the attack happened. If it happened earlier during the 10-month period, I chose A since its defense capacity was much higher, if it were to happen later, I figured the energy source B is a better choice."
+exploitation,11,2,2,8,2,1,50,F,"I based on my decision solely on when the attack happened. If it happened earlier during the 10-month period, I chose A since its defense capacity was much higher, if it were to happen later, I figured the energy source B is a better choice."
+exploitation,12,0,2,3,0,0,30,F,"I considered the amount of time I had remaining before the attack in deciding whether it would be useful to switch energy sources or not. For the first two scenarios, I thought the remaining amount of time was too narrow for the new energy source to catch up to or surpass the current one, but for the last, I thought six months was possibly a wide enough window of time for Source B to potentially surpass Source A."
+exploitation,12,1,2,5,0,0,30,F,"I considered the amount of time I had remaining before the attack in deciding whether it would be useful to switch energy sources or not. For the first two scenarios, I thought the remaining amount of time was too narrow for the new energy source to catch up to or surpass the current one, but for the last, I thought six months was possibly a wide enough window of time for Source B to potentially surpass Source A."
+exploitation,12,2,2,8,0,1,30,F,"I considered the amount of time I had remaining before the attack in deciding whether it would be useful to switch energy sources or not. For the first two scenarios, I thought the remaining amount of time was too narrow for the new energy source to catch up to or surpass the current one, but for the last, I thought six months was possibly a wide enough window of time for Source B to potentially surpass Source A."
+exploitation,13,0,2,3,2,0,65,F,"I noticed that the energy for type A is bigger until month 4, then is lower than for type B"
+exploitation,13,1,2,5,2,1,65,F,"I noticed that the energy for type A is bigger until month 4, then is lower than for type B"
+exploitation,13,2,2,8,2,1,65,F,"I noticed that the energy for type A is bigger until month 4, then is lower than for type B"
+exploitation,14,0,2,3,0,0,53,F,chose the strongest
+exploitation,14,1,2,5,0,0,53,F,chose the strongest
+exploitation,14,2,2,8,0,0,53,F,chose the strongest
+exploitation,15,0,2,3,0,0,37,F,I just looked to see which system had a bigger green bar at different months and then decided when to switch over who I thought had a bigger green bar by certain dates. 
+exploitation,15,1,2,5,0,0,37,F,I just looked to see which system had a bigger green bar at different months and then decided when to switch over who I thought had a bigger green bar by certain dates. 
+exploitation,15,2,2,8,0,1,37,F,I just looked to see which system had a bigger green bar at different months and then decided when to switch over who I thought had a bigger green bar by certain dates. 
+exploitation,16,0,2,3,2,1,44,M,I switched to option B when it became available because it increased faster.
+exploitation,16,1,2,5,2,1,44,M,I switched to option B when it became available because it increased faster.
+exploitation,16,2,2,8,2,1,44,M,I switched to option B when it became available because it increased faster.
+exploitation,17,0,2,3,1,0,41,M,"After month 7, it was more beneficial to switch to B, otherwise stay with A"
+exploitation,17,1,2,5,1,0,41,M,"After month 7, it was more beneficial to switch to B, otherwise stay with A"
+exploitation,17,2,2,8,1,1,41,M,"After month 7, it was more beneficial to switch to B, otherwise stay with A"
+exploitation,18,0,2,3,2,0,44,F,"I noticed how Type A had the strongest defense system for the first 5 months, but then Type B became more powerful in the 6th through the 10th months. I made my decisions based on this."
+exploitation,18,1,2,5,2,0,44,F,"I noticed how Type A had the strongest defense system for the first 5 months, but then Type B became more powerful in the 6th through the 10th months. I made my decisions based on this."
+exploitation,18,2,2,8,2,1,44,F,"I noticed how Type A had the strongest defense system for the first 5 months, but then Type B became more powerful in the 6th through the 10th months. I made my decisions based on this."
+exploitation,19,0,2,3,1,0,27,F,I compare the size of the bar in the beginning and evaluate if type B has the potential of catching up based on type A's growth trend
+exploitation,19,1,2,5,1,0,27,F,I compare the size of the bar in the beginning and evaluate if type B has the potential of catching up based on type A's growth trend
+exploitation,19,2,2,8,1,1,27,F,I compare the size of the bar in the beginning and evaluate if type B has the potential of catching up based on type A's growth trend
+exploitation,20,0,2,3,2,0,63,F,"I watched the examples closely and it seemed to me that for the first 4-6 months system A was stronger but after than system B not only caught up with A but outperformed it. So when the aliens were attacking within a few months, I stayed with A but long term I went with B."
+exploitation,20,1,2,5,2,0,63,F,"I watched the examples closely and it seemed to me that for the first 4-6 months system A was stronger but after than system B not only caught up with A but outperformed it. So when the aliens were attacking within a few months, I stayed with A but long term I went with B."
+exploitation,20,2,2,8,2,1,63,F,"I watched the examples closely and it seemed to me that for the first 4-6 months system A was stronger but after than system B not only caught up with A but outperformed it. So when the aliens were attacking within a few months, I stayed with A but long term I went with B."
+exploitation,21,0,2,3,2,0,37,M,I tried to maximize the defense energy capability.
+exploitation,21,1,2,5,2,1,37,M,I tried to maximize the defense energy capability.
+exploitation,21,2,2,8,2,1,37,M,I tried to maximize the defense energy capability.
+exploitation,22,0,2,3,1,0,56,M,"My strategy was to stay with Type A if the attack was imminent, but to switch to Type B if the attack was farther out.  "
+exploitation,22,1,2,5,1,1,56,M,"My strategy was to stay with Type A if the attack was imminent, but to switch to Type B if the attack was farther out.  "
+exploitation,22,2,2,8,1,1,56,M,"My strategy was to stay with Type A if the attack was imminent, but to switch to Type B if the attack was farther out.  "
+exploitation,23,0,2,3,2,0,61,F,"I saw what month the attack would happen after, and having a good grasp on how fast energies developed by each month I was making sure planet was covered."
+exploitation,23,1,2,5,2,0,61,F,"I saw what month the attack would happen after, and having a good grasp on how fast energies developed by each month I was making sure planet was covered."
+exploitation,23,2,2,8,2,1,61,F,"I saw what month the attack would happen after, and having a good grasp on how fast energies developed by each month I was making sure planet was covered."
+exploitation,24,0,2,3,2,0,54,M,I found the later the attack was going to be caused me to switch systems after month 2.
+exploitation,24,1,2,5,2,1,54,M,I found the later the attack was going to be caused me to switch systems after month 2.
+exploitation,24,2,2,8,2,1,54,M,I found the later the attack was going to be caused me to switch systems after month 2.
+exploitation,25,0,2,3,2,0,41,F,"When looking at the examples, I tried to figure out when B would be become a better option than A. That seemed to be in around the 7 month mark, so that is the info I applied to the actual selection process."
+exploitation,25,1,2,5,2,0,41,F,"When looking at the examples, I tried to figure out when B would be become a better option than A. That seemed to be in around the 7 month mark, so that is the info I applied to the actual selection process."
+exploitation,25,2,2,8,2,1,41,F,"When looking at the examples, I tried to figure out when B would be become a better option than A. That seemed to be in around the 7 month mark, so that is the info I applied to the actual selection process."
+exploitation,26,0,2,3,0,1,41,M,I used what I learned about the growth of both energy types to pick what made sense. I picked Energy B in most cases.
+exploitation,26,1,2,5,0,1,41,M,I used what I learned about the growth of both energy types to pick what made sense. I picked Energy B in most cases.
+exploitation,26,2,2,8,0,1,41,M,I used what I learned about the growth of both energy types to pick what made sense. I picked Energy B in most cases.
+exploitation,27,0,2,3,2,1,35,F,"I tried to pick the best option based on the month the attack was to happen. If the attack was later B was better, if it was sooner A was better."
+exploitation,27,1,2,5,2,0,35,F,"I tried to pick the best option based on the month the attack was to happen. If the attack was later B was better, if it was sooner A was better."
+exploitation,27,2,2,8,2,1,35,F,"I tried to pick the best option based on the month the attack was to happen. If the attack was later B was better, if it was sooner A was better."
+exploitation,28,0,2,3,0,0,30,M,"If the attack was coming later, I would switch to B"
+exploitation,28,1,2,5,0,0,30,M,"If the attack was coming later, I would switch to B"
+exploitation,28,2,2,8,0,1,30,M,"If the attack was coming later, I would switch to B"
+exploitation,29,0,2,3,2,0,23,M,"The defense capability of energy type B outstripped that of A after 5 months, so I switched to type B only when the alien attack was due after month 7."
+exploitation,29,1,2,5,2,0,23,M,"The defense capability of energy type B outstripped that of A after 5 months, so I switched to type B only when the alien attack was due after month 7."
+exploitation,29,2,2,8,2,1,23,M,"The defense capability of energy type B outstripped that of A after 5 months, so I switched to type B only when the alien attack was due after month 7."
+exploitation,30,0,2,3,1,0,32,M,B is better after month 7 I think
+exploitation,30,1,2,5,1,0,32,M,B is better after month 7 I think
+exploitation,30,2,2,8,1,1,32,M,B is better after month 7 I think
+exploitation,31,0,2,3,0,0,53,M,"For any attack after month 7, system B would be stronger."
+exploitation,31,1,2,5,0,0,53,M,"For any attack after month 7, system B would be stronger."
+exploitation,31,2,2,8,0,1,53,M,"For any attack after month 7, system B would be stronger."
+exploitation,32,0,2,3,2,0,38,F,I went with the one that had the longest bar at the time of the attack.
+exploitation,32,1,2,5,2,0,38,F,I went with the one that had the longest bar at the time of the attack.
+exploitation,32,2,2,8,2,0,38,F,I went with the one that had the longest bar at the time of the attack.
+exploitation,33,0,2,3,0,0,41,F,I have choosen the strongest line to tackle the attack.
+exploitation,33,1,2,5,0,0,41,F,I have choosen the strongest line to tackle the attack.
+exploitation,33,2,2,8,0,0,41,F,I have choosen the strongest line to tackle the attack.
+exploitation,34,0,2,3,0,0,48,M,"If the attack where to occur in the latter portion of the ten month period, then the switch to energy type b would provide the better defense."
+exploitation,34,1,2,5,0,0,48,M,"If the attack where to occur in the latter portion of the ten month period, then the switch to energy type b would provide the better defense."
+exploitation,34,2,2,8,0,1,48,M,"If the attack where to occur in the latter portion of the ten month period, then the switch to energy type b would provide the better defense."
+exploitation,35,0,2,3,1,1,30,M,I went with B each time as it seemed like that had the largest increase in defense.
+exploitation,35,1,2,5,1,1,30,M,I went with B each time as it seemed like that had the largest increase in defense.
+exploitation,35,2,2,8,1,1,30,M,I went with B each time as it seemed like that had the largest increase in defense.
+exploitation,36,0,2,3,0,0,72,M,"It seemed like system b was more effective from four months out, so I started with system a , and then switched to system b when the attacks were to occur five and eight months out."
+exploitation,36,1,2,5,0,1,72,M,"It seemed like system b was more effective from four months out, so I started with system a , and then switched to system b when the attacks were to occur five and eight months out."
+exploitation,36,2,2,8,0,1,72,M,"It seemed like system b was more effective from four months out, so I started with system a , and then switched to system b when the attacks were to occur five and eight months out."
+exploitation,37,0,2,3,1,0,29,F,My strategy was to assess how much time would elapse and which system would be most built up for defense.
+exploitation,37,1,2,5,1,0,29,F,My strategy was to assess how much time would elapse and which system would be most built up for defense.
+exploitation,37,2,2,8,1,1,29,F,My strategy was to assess how much time would elapse and which system would be most built up for defense.
+exploitation,38,0,2,3,1,0,48,Prefer not to say,I was just trying to estimate which weapon would be strongest at each time frame
+exploitation,38,1,2,5,1,0,48,Prefer not to say,I was just trying to estimate which weapon would be strongest at each time frame
+exploitation,38,2,2,8,1,1,48,Prefer not to say,I was just trying to estimate which weapon would be strongest at each time frame
+exploitation,39,0,2,3,2,0,47,F,i looked to see which option offered the greatest protection at the end of each month
+exploitation,39,1,2,5,2,0,47,F,i looked to see which option offered the greatest protection at the end of each month
+exploitation,39,2,2,8,2,1,47,F,i looked to see which option offered the greatest protection at the end of each month
+exploitation,40,0,2,3,2,1,33,F,Utilizing the examples
+exploitation,40,1,2,5,2,1,33,F,Utilizing the examples
+exploitation,40,2,2,8,2,1,33,F,Utilizing the examples
+exploitation,41,0,2,3,1,0,70,M,"Pay attention to the length of the bars over time.  Make decisions based thereon when called upon.  P.S.  You have a typo.  That's not Harvard work.  ""your will use""  I only went to ASU."
+exploitation,41,1,2,5,1,0,70,M,"Pay attention to the length of the bars over time.  Make decisions based thereon when called upon.  P.S.  You have a typo.  That's not Harvard work.  ""your will use""  I only went to ASU."
+exploitation,41,2,2,8,1,1,70,M,"Pay attention to the length of the bars over time.  Make decisions based thereon when called upon.  P.S.  You have a typo.  That's not Harvard work.  ""your will use""  I only went to ASU."
+exploitation,42,0,2,3,2,0,29,F,I tried to look at how much each option grew per month
+exploitation,42,1,2,5,2,1,29,F,I tried to look at how much each option grew per month
+exploitation,42,2,2,8,2,1,29,F,I tried to look at how much each option grew per month
+exploitation,43,0,2,3,1,1,48,F,At first I went with the attack that seemed to grow the fastest but then at the end I had second thoughts
+exploitation,43,1,2,5,1,1,48,F,At first I went with the attack that seemed to grow the fastest but then at the end I had second thoughts
+exploitation,43,2,2,8,1,0,48,F,At first I went with the attack that seemed to grow the fastest but then at the end I had second thoughts
+exploitation,44,0,2,3,0,1,30,F,If it was lower in months A and if it was longer B
+exploitation,44,1,2,5,0,1,30,F,If it was lower in months A and if it was longer B
+exploitation,44,2,2,8,0,0,30,F,If it was lower in months A and if it was longer B
+exploitation,45,0,2,3,2,0,48,F,I chose A for short term attacks since its short term energy was higher and I chose B for long term attacks since its long term energy increased more than A's.
+exploitation,45,1,2,5,2,1,48,F,I chose A for short term attacks since its short term energy was higher and I chose B for long term attacks since its long term energy increased more than A's.
+exploitation,45,2,2,8,2,1,48,F,I chose A for short term attacks since its short term energy was higher and I chose B for long term attacks since its long term energy increased more than A's.
+exploitation,46,0,2,3,0,0,28,M,My stategy was to try and maximize the defense bar. I notices A started off strong initially but did not have much improvement so I seleced A for shorted time periods and B for longer periods where B had a chance to improve 
+exploitation,46,1,2,5,0,1,28,M,My stategy was to try and maximize the defense bar. I notices A started off strong initially but did not have much improvement so I seleced A for shorted time periods and B for longer periods where B had a chance to improve 
+exploitation,46,2,2,8,0,1,28,M,My stategy was to try and maximize the defense bar. I notices A started off strong initially but did not have much improvement so I seleced A for shorted time periods and B for longer periods where B had a chance to improve 
+exploitation,47,0,2,3,2,0,53,M,"Having looked at the examples, I decided to always go with Type A unless the attack was predicted for month 8 or 9."
+exploitation,47,1,2,5,2,0,53,M,"Having looked at the examples, I decided to always go with Type A unless the attack was predicted for month 8 or 9."
+exploitation,47,2,2,8,2,1,53,M,"Having looked at the examples, I decided to always go with Type A unless the attack was predicted for month 8 or 9."
+exploitation,48,0,2,3,0,0,43,F,Estimating where the energy types have the potential to be at the time of the attack.
+exploitation,48,1,2,5,0,0,43,F,Estimating where the energy types have the potential to be at the time of the attack.
+exploitation,48,2,2,8,0,1,43,F,Estimating where the energy types have the potential to be at the time of the attack.
+exploitation,49,0,2,3,2,0,66,M,i noticed that choice 2 seem to build at faster rate the longert it took. Choice started out fast and slowed down months later
+exploitation,49,1,2,5,2,0,66,M,i noticed that choice 2 seem to build at faster rate the longert it took. Choice started out fast and slowed down months later
+exploitation,49,2,2,8,2,1,66,M,i noticed that choice 2 seem to build at faster rate the longert it took. Choice started out fast and slowed down months later
+exploitation,50,0,2,3,1,0,59,F,"While reviewing the two energy levels, I saw that A started out strong but built slowly.  Energy B started out weak, but built strong faster than A.  So if an attack would happen in an earlier month, A would be the stronger choice, but if an attack happened after month 6, B would be stronger.  Energy B always surpassed energy A by the six month."
+exploitation,50,1,2,5,1,0,59,F,"While reviewing the two energy levels, I saw that A started out strong but built slowly.  Energy B started out weak, but built strong faster than A.  So if an attack would happen in an earlier month, A would be the stronger choice, but if an attack happened after month 6, B would be stronger.  Energy B always surpassed energy A by the six month."
+exploitation,50,2,2,8,1,1,59,F,"While reviewing the two energy levels, I saw that A started out strong but built slowly.  Energy B started out weak, but built strong faster than A.  So if an attack would happen in an earlier month, A would be the stronger choice, but if an attack happened after month 6, B would be stronger.  Energy B always surpassed energy A by the six month."
+exploitation,51,0,2,3,2,1,38,F,Focused on the past growth.
+exploitation,51,1,2,5,2,1,38,F,Focused on the past growth.
+exploitation,51,2,2,8,2,1,38,F,Focused on the past growth.
+exploitation,52,0,2,3,2,1,26,M,"After seeing the examples, I realized that option B will give me higher energy so, I chose that option even if it made me lose the first 2 months."
+exploitation,52,1,2,5,2,1,26,M,"After seeing the examples, I realized that option B will give me higher energy so, I chose that option even if it made me lose the first 2 months."
+exploitation,52,2,2,8,2,1,26,M,"After seeing the examples, I realized that option B will give me higher energy so, I chose that option even if it made me lose the first 2 months."
+exploitation,53,0,2,3,1,0,70,M,"pick maximum level of defense  for the three attack scenarios
+"
+exploitation,53,1,2,5,1,0,70,M,"pick maximum level of defense  for the three attack scenarios
+"
+exploitation,53,2,2,8,1,1,70,M,"pick maximum level of defense  for the three attack scenarios
+"
+exploitation,54,0,2,3,0,0,36,F,I studied the increase of defense for the different months. The largest increase seemed to initially happen around month 5.
+exploitation,54,1,2,5,0,1,36,F,I studied the increase of defense for the different months. The largest increase seemed to initially happen around month 5.
+exploitation,54,2,2,8,0,1,36,F,I studied the increase of defense for the different months. The largest increase seemed to initially happen around month 5.
+exploitation,55,0,2,3,2,0,32,M,I tried to time when B would overtake A.
+exploitation,55,1,2,5,2,1,32,M,I tried to time when B would overtake A.
+exploitation,55,2,2,8,2,1,32,M,I tried to time when B would overtake A.
+exploitation,56,0,2,3,2,0,50,M,"If the attack was early I stuck with Type A, if the attack came after month 5, I switched to B."
+exploitation,56,1,2,5,2,0,50,M,"If the attack was early I stuck with Type A, if the attack came after month 5, I switched to B."
+exploitation,56,2,2,8,2,1,50,M,"If the attack was early I stuck with Type A, if the attack came after month 5, I switched to B."
+exploitation,57,0,2,3,1,0,54,M,Whatever maximizes defense when the attack happens
+exploitation,57,1,2,5,1,0,54,M,Whatever maximizes defense when the attack happens
+exploitation,57,2,2,8,1,1,54,M,Whatever maximizes defense when the attack happens
+exploitation,58,0,2,3,1,0,41,F,If the attack was going to happen before month 6 A would be stronger but if it happens after month 6 B would be stronger by then.
+exploitation,58,1,2,5,1,0,41,F,If the attack was going to happen before month 6 A would be stronger but if it happens after month 6 B would be stronger by then.
+exploitation,58,2,2,8,1,1,41,F,If the attack was going to happen before month 6 A would be stronger but if it happens after month 6 B would be stronger by then.
+exploitation,59,0,2,3,0,0,42,M,Use defense A unless it is month 7 or later 
+exploitation,59,1,2,5,0,0,42,M,Use defense A unless it is month 7 or later 
+exploitation,59,2,2,8,0,1,42,M,Use defense A unless it is month 7 or later 
+exploitation,60,0,2,3,1,0,36,M,Energy source A started with such a large lead that B would only be able to overtake it after a significant number of months. So I wasn't going to switch until I could use B for at least 4 or 5 months.
+exploitation,60,1,2,5,1,0,36,M,Energy source A started with such a large lead that B would only be able to overtake it after a significant number of months. So I wasn't going to switch until I could use B for at least 4 or 5 months.
+exploitation,60,2,2,8,1,1,36,M,Energy source A started with such a large lead that B would only be able to overtake it after a significant number of months. So I wasn't going to switch until I could use B for at least 4 or 5 months.
+exploitation,61,0,2,3,1,0,30,M,"I basically thought that if the attack happens early, than type A is the better choice but as time goes on type B is the better choice considering the light green is stronger"
+exploitation,61,1,2,5,1,1,30,M,"I basically thought that if the attack happens early, than type A is the better choice but as time goes on type B is the better choice considering the light green is stronger"
+exploitation,61,2,2,8,1,1,30,M,"I basically thought that if the attack happens early, than type A is the better choice but as time goes on type B is the better choice considering the light green is stronger"
+exploitation,62,0,2,3,0,1,46,F,I didn't have a particular strategy
+exploitation,62,1,2,5,0,0,46,F,I didn't have a particular strategy
+exploitation,62,2,2,8,0,1,46,F,I didn't have a particular strategy
+exploitation,63,0,2,3,2,0,40,F,"If there month was after 7 I went with the second plan, before and the first was strongest."
+exploitation,63,1,2,5,2,0,40,F,"If there month was after 7 I went with the second plan, before and the first was strongest."
+exploitation,63,2,2,8,2,1,40,F,"If there month was after 7 I went with the second plan, before and the first was strongest."
+exploitation,64,0,2,3,1,0,40,M,My strategy was to pick the option at the time of the attack.
+exploitation,64,1,2,5,1,1,40,M,My strategy was to pick the option at the time of the attack.
+exploitation,64,2,2,8,1,1,40,M,My strategy was to pick the option at the time of the attack.
+exploitation,65,0,2,3,0,0,35,M,I believe A was superior up until month 7 and then B made more sense. 
+exploitation,65,1,2,5,0,0,35,M,I believe A was superior up until month 7 and then B made more sense. 
+exploitation,65,2,2,8,0,1,35,M,I believe A was superior up until month 7 and then B made more sense. 
+exploitation,66,0,2,3,0,0,34,F,ball parked the progress
+exploitation,66,1,2,5,0,1,34,F,ball parked the progress
+exploitation,66,2,2,8,0,1,34,F,ball parked the progress
+exploitation,67,0,2,3,0,0,37,Prefer not to say,"I paid attention to which was better between A and B, and B was the better choice every time."
+exploitation,67,1,2,5,0,1,37,Prefer not to say,"I paid attention to which was better between A and B, and B was the better choice every time."
+exploitation,67,2,2,8,0,1,37,Prefer not to say,"I paid attention to which was better between A and B, and B was the better choice every time."
+exploitation,68,0,2,3,2,0,40,M,I tried to see when one system was advantageous over the other during each month. Then I chose that system if the attack was at that month.
+exploitation,68,1,2,5,2,0,40,M,I tried to see when one system was advantageous over the other during each month. Then I chose that system if the attack was at that month.
+exploitation,68,2,2,8,2,1,40,M,I tried to see when one system was advantageous over the other during each month. Then I chose that system if the attack was at that month.
+exploitation,69,0,2,3,2,0,35,M,"My decision was determined how far out the attack would be. THe shorter, I would stick with A."
+exploitation,69,1,2,5,2,1,35,M,"My decision was determined how far out the attack would be. THe shorter, I would stick with A."
+exploitation,69,2,2,8,2,1,35,M,"My decision was determined how far out the attack would be. THe shorter, I would stick with A."
+exploitation,70,0,2,3,0,1,54,F,I chose to switch to Type B after the second month because it's power increases more quickly than type A.
+exploitation,70,1,2,5,0,0,54,F,I chose to switch to Type B after the second month because it's power increases more quickly than type A.
+exploitation,70,2,2,8,0,1,54,F,I chose to switch to Type B after the second month because it's power increases more quickly than type A.
+exploitation,71,0,2,3,0,0,55,F,"I watched in the examples how A and B each increased and at what point I felt which one made the strongest defense.  When I was told when the attack was, then I went with then one that had the strongest defense at that time."
+exploitation,71,1,2,5,0,0,55,F,"I watched in the examples how A and B each increased and at what point I felt which one made the strongest defense.  When I was told when the attack was, then I went with then one that had the strongest defense at that time."
+exploitation,71,2,2,8,0,1,55,F,"I watched in the examples how A and B each increased and at what point I felt which one made the strongest defense.  When I was told when the attack was, then I went with then one that had the strongest defense at that time."
+exploitation,72,0,2,3,2,0,42,M,It looks like defense B was better in the long run. 
+exploitation,72,1,2,5,2,1,42,M,It looks like defense B was better in the long run. 
+exploitation,72,2,2,8,2,1,42,M,It looks like defense B was better in the long run. 
+exploitation,73,0,2,3,1,0,62,F,"I switched to B after 5 months because after a longer time, B had a better defense. "
+exploitation,73,1,2,5,1,0,62,F,"I switched to B after 5 months because after a longer time, B had a better defense. "
+exploitation,73,2,2,8,1,1,62,F,"I switched to B after 5 months because after a longer time, B had a better defense. "
+exploitation,74,0,2,3,0,0,53,M,"If it was in the first few month, stick with A, but B was far superior at the later dates"
+exploitation,74,1,2,5,0,1,53,M,"If it was in the first few month, stick with A, but B was far superior at the later dates"
+exploitation,74,2,2,8,0,1,53,M,"If it was in the first few month, stick with A, but B was far superior at the later dates"
+exploitation,75,0,2,3,2,0,32,F,I tried to pick the one that would have the highest defense system at the specified attack time
+exploitation,75,1,2,5,2,1,32,F,I tried to pick the one that would have the highest defense system at the specified attack time
+exploitation,75,2,2,8,2,1,32,F,I tried to pick the one that would have the highest defense system at the specified attack time
+exploitation,76,0,2,3,2,1,38,F,Evaluate the performance of each energy type and use the best option.
+exploitation,76,1,2,5,2,1,38,F,Evaluate the performance of each energy type and use the best option.
+exploitation,76,2,2,8,2,1,38,F,Evaluate the performance of each energy type and use the best option.
+exploitation,77,0,2,3,2,0,34,M,Based on the training scenarios I saw A is better short term and B is better long term 
+exploitation,77,1,2,5,2,1,34,M,Based on the training scenarios I saw A is better short term and B is better long term 
+exploitation,77,2,2,8,2,1,34,M,Based on the training scenarios I saw A is better short term and B is better long term 
+exploitation,78,0,2,3,1,0,43,F,"I paid attention to how long it took for B to be as effective as A, which was about six months. So if the attack was going to happen before six months, I chose A, and if the attack was going to happen after six months, I chose B."
+exploitation,78,1,2,5,1,0,43,F,"I paid attention to how long it took for B to be as effective as A, which was about six months. So if the attack was going to happen before six months, I chose A, and if the attack was going to happen after six months, I chose B."
+exploitation,78,2,2,8,1,1,43,F,"I paid attention to how long it took for B to be as effective as A, which was about six months. So if the attack was going to happen before six months, I chose A, and if the attack was going to happen after six months, I chose B."
+exploitation,79,0,2,3,0,0,38,F,I went off of the information I was given previously. It seemed like type A was good if the attack was going to happen before month 6 and any month after that the second type was best.
+exploitation,79,1,2,5,0,0,38,F,I went off of the information I was given previously. It seemed like type A was good if the attack was going to happen before month 6 and any month after that the second type was best.
+exploitation,79,2,2,8,0,1,38,F,I went off of the information I was given previously. It seemed like type A was good if the attack was going to happen before month 6 and any month after that the second type was best.
+exploitation,80,0,2,3,2,0,53,M,"Since we were told when the attack would occur, I went with A if the attack was early and B if it came late. B seemed to experience a ""growth spurt"" after a while."
+exploitation,80,1,2,5,2,0,53,M,"Since we were told when the attack would occur, I went with A if the attack was early and B if it came late. B seemed to experience a ""growth spurt"" after a while."
+exploitation,80,2,2,8,2,1,53,M,"Since we were told when the attack would occur, I went with A if the attack was early and B if it came late. B seemed to experience a ""growth spurt"" after a while."
+exploitation,81,0,2,3,2,0,49,M,I looked at the relative rates of growth at various times
+exploitation,81,1,2,5,2,1,49,M,I looked at the relative rates of growth at various times
+exploitation,81,2,2,8,2,1,49,M,I looked at the relative rates of growth at various times
+exploitation,82,0,2,3,0,0,34,M,I went with my gut. It was intuition.
+exploitation,82,1,2,5,0,1,34,M,I went with my gut. It was intuition.
+exploitation,82,2,2,8,0,0,34,M,I went with my gut. It was intuition.
+exploitation,83,0,2,3,1,0,58,F,"It was obvious from the information given that energy source A would be the superior choice up through month 6, but B would overtake A's capabilities from month 7 on."
+exploitation,83,1,2,5,1,0,58,F,"It was obvious from the information given that energy source A would be the superior choice up through month 6, but B would overtake A's capabilities from month 7 on."
+exploitation,83,2,2,8,1,1,58,F,"It was obvious from the information given that energy source A would be the superior choice up through month 6, but B would overtake A's capabilities from month 7 on."
+exploitation,84,0,2,3,1,0,51,F,I thought A would be better when the attack happened sooner and B would be better when the attack happened later.
+exploitation,84,1,2,5,1,0,51,F,I thought A would be better when the attack happened sooner and B would be better when the attack happened later.
+exploitation,84,2,2,8,1,1,51,F,I thought A would be better when the attack happened sooner and B would be better when the attack happened later.
+exploitation,85,0,2,3,1,0,53,M,I went with the energy source I started with because it was sufficiently large and did not diminish. I define 'sufficiently' as well beyond the mid point of strength. I did not see a reason to risk switching to the other energy source.  
+exploitation,85,1,2,5,1,0,53,M,I went with the energy source I started with because it was sufficiently large and did not diminish. I define 'sufficiently' as well beyond the mid point of strength. I did not see a reason to risk switching to the other energy source.  
+exploitation,85,2,2,8,1,0,53,M,I went with the energy source I started with because it was sufficiently large and did not diminish. I define 'sufficiently' as well beyond the mid point of strength. I did not see a reason to risk switching to the other energy source.  
+exploitation,86,0,2,3,2,0,32,M,I saw that it was usually good for Energy B to be used after month 6 to catch up to the initial A gains. 
+exploitation,86,1,2,5,2,0,32,M,I saw that it was usually good for Energy B to be used after month 6 to catch up to the initial A gains. 
+exploitation,86,2,2,8,2,1,32,M,I saw that it was usually good for Energy B to be used after month 6 to catch up to the initial A gains. 
+exploitation,87,0,2,3,2,0,33,F,I looked at the time horizon (which month the attack would be in) to make my decision.
+exploitation,87,1,2,5,2,0,33,F,I looked at the time horizon (which month the attack would be in) to make my decision.
+exploitation,87,2,2,8,2,1,33,F,I looked at the time horizon (which month the attack would be in) to make my decision.
+exploitation,88,0,2,3,2,1,50,M,Just went with B it had long lighter green 💚
+exploitation,88,1,2,5,2,1,50,M,Just went with B it had long lighter green 💚
+exploitation,88,2,2,8,2,1,50,M,Just went with B it had long lighter green 💚
+exploitation,89,0,2,3,1,0,52,F,I studied the strength of each energy type and how it changed over time to decide which one to use. 
+exploitation,89,1,2,5,1,1,52,F,I studied the strength of each energy type and how it changed over time to decide which one to use. 
+exploitation,89,2,2,8,1,1,52,F,I studied the strength of each energy type and how it changed over time to decide which one to use. 
+exploitation,90,0,2,3,1,0,34,M,Paid attention to how well B performed vs A.
+exploitation,90,1,2,5,1,1,34,M,Paid attention to how well B performed vs A.
+exploitation,90,2,2,8,1,1,34,M,Paid attention to how well B performed vs A.
+exploitation,91,0,2,3,0,0,67,M,"The timeline of when the attack occurs. ""A"" for earlier attacks, ""B"" for later attacks."
+exploitation,91,1,2,5,0,0,67,M,"The timeline of when the attack occurs. ""A"" for earlier attacks, ""B"" for later attacks."
+exploitation,91,2,2,8,0,1,67,M,"The timeline of when the attack occurs. ""A"" for earlier attacks, ""B"" for later attacks."
+exploitation,92,0,2,3,1,0,29,M,I tried to remember the examples as best I could
+exploitation,92,1,2,5,1,1,29,M,I tried to remember the examples as best I could
+exploitation,92,2,2,8,1,1,29,M,I tried to remember the examples as best I could
+exploitation,93,0,2,3,0,1,62,M,I tried to use the data
+exploitation,93,1,2,5,0,0,62,M,I tried to use the data
+exploitation,93,2,2,8,0,1,62,M,I tried to use the data
+exploitation,94,0,2,3,1,0,33,F,I just thought carefully. Didn't have a specific strategy.
+exploitation,94,1,2,5,1,0,33,F,I just thought carefully. Didn't have a specific strategy.
+exploitation,94,2,2,8,1,1,33,F,I just thought carefully. Didn't have a specific strategy.
+exploitation,95,0,2,3,1,0,47,M,pick the best of the 2 options to defend
+exploitation,95,1,2,5,1,0,47,M,pick the best of the 2 options to defend
+exploitation,95,2,2,8,1,0,47,M,pick the best of the 2 options to defend
+exploitation,96,0,2,3,1,0,55,F,"A starts faster but growth stalls. B starts more slowly, but ultimately has greater defence potential. My choice depended on how far in the future the attach was. If > 5 months, definitely switch to B."
+exploitation,96,1,2,5,1,0,55,F,"A starts faster but growth stalls. B starts more slowly, but ultimately has greater defence potential. My choice depended on how far in the future the attach was. If > 5 months, definitely switch to B."
+exploitation,96,2,2,8,1,1,55,F,"A starts faster but growth stalls. B starts more slowly, but ultimately has greater defence potential. My choice depended on how far in the future the attach was. If > 5 months, definitely switch to B."
+exploitation,97,0,2,3,2,1,36,M,I payed attention to the largest green increases. 
+exploitation,97,1,2,5,2,1,36,M,I payed attention to the largest green increases. 
+exploitation,97,2,2,8,2,1,36,M,I payed attention to the largest green increases. 
+exploitation,98,0,2,3,1,0,74,M,I went for strength in the moment.
+exploitation,98,1,2,5,1,0,74,M,I went for strength in the moment.
+exploitation,98,2,2,8,1,1,74,M,I went for strength in the moment.
+exploitation,99,0,2,3,1,1,26,M,"Since Option B had shown to do really well throughout the examples, I stuck with it, despite it having a lower starting defense."
+exploitation,99,1,2,5,1,1,26,M,"Since Option B had shown to do really well throughout the examples, I stuck with it, despite it having a lower starting defense."
+exploitation,99,2,2,8,1,1,26,M,"Since Option B had shown to do really well throughout the examples, I stuck with it, despite it having a lower starting defense."

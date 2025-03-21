@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Defend your planet!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jspsych-6.3.1/jspsych.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-call-function.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-external-html.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-fullscreen.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-html-button-response.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-html-keyboard-response.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-html-slider-response.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-instructions.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-image-button-response.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-survey-multi-choice.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-survey-html-form.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-survey-likert.js"></script>
+    <script src="jspsych-6.3.1/plugins/jspsych-survey-text.js"></script>
+    <link href="jspsych-6.3.1/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    </head>
+
+    <style>
+        .jspsych-html-button-response-button { height: 10px; width: 350px; font-size: 12px }
+        .row { display: flex; }
+        .column { flex: 50%; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; }
+        th, td { padding: 10px; }
+        #number {
+          width: 3.5em;
+        }
+        .hidden_slider_thumb input#jspsych-html-slider-response-response.jspsych-slider::-webkit-slider-thumb { opacity: 0; }
+		.hidden_slider_thumb input#jspsych-html-slider-response-response.jspsych-slider::-moz-range-thumb { opacity: 0; }
+        </style>
+
+    <script>
+
+          /* Save data to CSV */
+        function saveData(name, data) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path to the php file described above.
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify({
+            filename: name,
+            filedata: data
+            }));
+        }
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        var timeline = [];
+        var image_preload = ['img/lightgreen_bar.png', 'img/black_bar.png', 'img/green_bar.png', 'img/lightgreen_bar.png', 'img/arrow.png', 'img/A.png', 'img/B.png', 'img/C.png', 'img/D.png','img/aliens.png',];
+        jsPsych.pluginAPI.preloadImages([image_preload], function(){ startExperiment(); });
+        
+        
+        var check_consent = function(elem){                
+            if ($('#consent_checkbox').is(':checked')){return true;}
+            else{alert("If you wish to participate, you must check the box."); return false;}
+            return false;
+        };
+        var consent_block = {
+            type: 'external-html',
+            url: "consent.html",
+            cont_btn: "start",
+            check_fn: check_consent
+        };
+        var fullscreen = {
+            type: 'fullscreen',
+            message: '<p>This experiment must be completed in fullscreen mode to avoid distractions.</p>',
+            button_label: ["Enter fullscreen"],
+            fullscreen_mode: true
+        }
+        timeline.push(consent_block);
+        timeline.push(fullscreen);
+
+        
+
+        // Introduction
+        var instructions = {
+            type: 'instructions',
+            pages: [
+                    '<p> Welcome!</p>'+      
+                    '<p> Imagine your planet is facing an imminent fatal attack from aliens. </p>'+
+                    '<p> Your planet must build an effective defense system, powered by <b>one of two energy types</b> available.</b> </p>'+ 
+                    '<p> You are the leader of a scientific team. Your job is to <b>choose which energy type to use</b>. You can only choose one.</p>'+ 
+                    '<p> <div><img src= img/aliens.png style="height:400px;"></div>',
+
+                    '<p> Defense systems, powered by different energy types, require different amounts of time to be built. </p>'+ 
+                    '<p> To know what\'s best for your planet, you can rely on <b>past experiences</b> building defense systems. </p>'+
+                    '<p> <b>Each energy type provides some defense capability at start. Over time, the system is built incrementally and its capability increases.</b> </p>' + 
+                    '<p> For a defense system, its starting defense capability is shown as the <b style="color:#22B14C">dark green bar</b>. The increase is shown as the <b style="color:#B5E61D">light green bar</b>. <br><b>The longer the total length of bars, the higher the system\'s defense capability.</b></p>'+
+                    '<p> <img src= img/A.png style="width:1200px;">',
+
+                    '<p> The increase by each month is separated by black lines. </p> '+
+                    "<p> Below is an example of how a defense system's capability increased over the first three months.</p>"+
+                    '<p> <img src= img/B.png style="width:1200px;"> <img src= img/C.png style="width:1200px;"> <img src= img/D.png style="width:1200px;">',
+
+                    '<p> We will show you three examples of how the capability of past defense systems, powered by each energy type, increased over time. <br>You can observe how each system\'s defense capability increased over 10 months.'+
+                    '<br><b>This will help you make choices for the future.</b>'+
+                    '<p>You don\'t know when the attack will be, so you will make contingency plans in <b>three hypothetical scenarios</b>. <br> <b>Each contingency plan is about which energy type you will choose, if the attack happens at a particular time in the future.</b> <br> <i>For example, which energy type would be better if the attack happens in 4 months?</i> </p>',
+
+                    '<p> Your bonus pay depends on <b>whether you chose the better energy type in each hypothetical scenario.</b></p>'+
+                    '<p> In each scenario, you will receive a $0.5 bonus if you choose the better energy type. </p>'+
+                    '<p> Your total bonus will go up to $1.5, and will not be less than $0.</p>',
+
+                    '<p>If you understand the rules, please click "Next" to go to the <b>comprehension check</b>. <br>Otherwise, click "Previous" to view the instructions again.</p>'+
+                    '<p>If you don\'t get the comprehension questions correct, you won\'t be able to move on.</p>',
+            ],
+            show_clickable_nav: true,
+            allow_backward: true,
+            show_page_number: true,
+        }
+        timeline.push(instructions);
+
+
+        /* Comprehension check*/
+        var gap = {
+            type: "html-keyboard-response",
+            stimulus: " ",
+            choices: jsPsych.NO_KEYS,
+            trial_duration: 1000
+        }
+        var choices_1 = [
+          "Choose the energy type that has been more successful over history.",
+          "Choose the better energy type for each scenario.",
+          "The goal is not clear.",
+        ];
+
+        var choices_2 = [
+          "The total length of the bar increasing.",
+          "A new light green bar added to the end.",
+          "A longer starting dark green bar."
+        ];
+
+        var choices_3 = [
+          "At start.",
+          "At the time of the attack.",
+          "At the end of 10 months."
+        ];
+
+
+        var comprehension = {
+            type: "survey-multi-choice",
+            preamble: "<p><br> Comprehension questions: </p>",
+            questions: [
+              {prompt: "<b>1. What is your goal in this game? </b>", options: choices_1, required: true},
+              {prompt: "<b>2. What is NOT an indicator of increases in defense capability over the months? </b>", options: choices_2, required: true},
+              {prompt: "<b>3. In each scenario, your bonus is higher when you choose the energy type that is better... </b>", options: choices_3, required: true},
+            ],
+            button_label: ["Submit"],
+          };
+
+        var fail_page = {
+          type: "html-button-response",
+          stimulus: "<p> Oops! You did not pass the comprehension check.</p>",
+          choices: ['<p style="font-size: 20px"><b> Try again </b></p>', '<p style="font-size: 20px"><b> View instructions again </b></p>']
+        };
+
+        var fail = {
+          timeline: [fail_page],
+          conditional_function: function(){
+            try {
+            var ans1 = jsPsych.data.getLastTrialData().values()[0].response.Q0;
+            var ans2 = jsPsych.data.getLastTrialData().values()[0].response.Q1;
+            var ans3 = jsPsych.data.getLastTrialData().values()[0].response.Q2;
+            var stim = "<p> Oops! You did not pass the comprehension check.</p>" == jsPsych.data.getLastTrialData().values()[0].stimulus
+            }
+            catch(err){
+              ans1 = 'undefined';
+              ans2 = 'undefined';
+              ans3 = 'undefined';
+              ans4 = 'undefined';
+              ans5 = 'undefined';
+            }
+            if(!(stim) &&(ans1.includes('scenario') != true || ans2.includes('starting') != true || ans3.includes('attack') != true)){
+                return true;
+            }
+            else {
+              return false;
+            }
+            }
+        };
+
+        var return_instructions = {
+          timeline: [instructions, gap, comprehension],
+          conditional_function: function(){
+            var choice = jsPsych.data.getLastTrialData().values()[0].response
+            var stim = "<p> Oops! You did not pass the comprehension check.</p>" == jsPsych.data.getLastTrialData().values()[0].stimulus
+            if (choice==1 && stim) {
+              return true
+            }
+            else {
+              return false
+            }
+          }
+        };
+
+        var comprehension_again = {
+          timeline: [comprehension],
+          conditional_function: function(){
+            var choice = jsPsych.data.getLastTrialData().values()[0].response
+            var stim = "<p> Oops! You did not pass the comprehension check.</p>" == jsPsych.data.getLastTrialData().values()[0].stimulus
+            if (choice==0 && stim) {
+              return true;
+            }
+            else {
+              return false;
+            }
+          }
+        };
+
+        var instructions2 = {
+          type: 'instructions',
+          pages: [
+            "<p>Congratulations on passing the comprehension check!</p>"
+            +"<p>Please make sure to follow the instructions on the screen carefully.</p>"
+            +"<p>In order for your data to be saved successfully, you need to complete the full experiment, <br>advancing to the completion code screen at the end of the experiment.</p>",
+            
+            "<p>The experiment will take about 10 minutes to complete.<br>"
+            +"You will earn $1.00 for completing the experiment and a potential bonus payment up to $1.50. <br>"
+            +"We thank you for taking the time to complete this task to the best of your ability.</p>"
+            +"<p><b>Please proceed when you are ready to begin the experiment.</b></p>"
+            +"<p><b>Recap:</b> you will first observe how the capability of past defense systems, powered by each energy type, increased over time.</p>"
+        ],
+          show_clickable_nav: true,
+          allow_backward: true,
+          on_finish: function(){
+                jsPsych.data.addProperties({exploitation_agent_on_top: exploitation_agent_on_top});
+                var start_agent = getRandomInt(0,1);
+                // console.log(start_agent)
+                num_training_agents[start_agent]++;
+                // For the first trajectory shown, need to specify this.
+                for (let t = 0; t <= num_timepts; t++) {
+                    var bar_length_temp = '<img src="img/lightgreen_bar.png", height="25", width="'+(bar_length_unit*bar_lengths[start_agent][num_training_agents[start_agent]-1][t])+'"></img>'
+                    if(t==0){
+                        c1 = bar_length_temp;
+                    } else {
+                        c1 = combo[combo.length-1] + bar_length_temp + gray_string;
+                    } 
+                    combo.push(c1);
+                }
+                const newTrials = [...Array(num_timepts)].map((_, j) => bar(j, start_agent));
+                jsPsych.addNodeToEndOfTimeline({timeline: [gap]}, function() {
+                            jsPsych.resumeExperiment();
+                });
+                        jsPsych.addNodeToEndOfTimeline({timeline: newTrials}, function() {
+                            jsPsych.resumeExperiment();
+                });
+                jsPsych.data.addDataToLastTrial({response: Number(start_agent+1)});
+            },
+        };
+
+        timeline.push(gap, comprehension)
+        for (var i = 0; i < 100; i++) {
+            timeline.push(fail,return_instructions,comprehension_again);
+        }
+        timeline.push(instructions2)
+
+
+
+
+
+
+
+
+        /* Experiment below.*/
+
+        var scale = 500;
+        var bar_lengths1 = [[0.05267641, 0.00864905, 0.0351222,  0.12285415, 0.27495678, 0.27230966, 0.11998388, 0.03411294, 0.00838772, 0.00198605,4.66018050e-04].map(function(x) {return x * scale}),
+        [0.05111151, 0.00468404, 0.02372109, 0.10498536, 0.28359519, 0.28117431, 0.10287552, 0.02315467, 0.0045683, 0.00087694,1.67446477e-04].map(function(x) {return x * scale}),
+        [0.05134957, 0.00550681, 0.02712014, 0.11620281, 0.30357948, 0.29679172, 0.11012205, 0.02543251, 0.00515186, 0.00101481,1.98785983e-04].map(function(x) {return x * scale}),
+        ]
+        var bar_lengths2 = [[5.00000101e-01, 2.13977757e-06, 4.75830825e-05, 1.05222702e-03, 2.07027492e-02, 1.18468632e-01, 4.53373236e-02, 2.73679268e-03, 1.24936170e-04, 5.62070243e-06, 2.52700208e-07].map(function(x) {return x * scale}),
+        [5.00000139e-01, 2.67127120e-06, 5.38406221e-05, 1.07845634e-03,1.92035658e-02, 1.06063476e-01, 4.41001459e-02, 3.00236352e-03,1.51666693e-04, 7.52930831e-06, 3.73457694e-07].map(function(x) {return x * scale}),
+        [5.00000131e-01, 2.73060034e-06, 5.94656723e-05, 1.28791008e-03,2.49168974e-02, 1.45581814e-01, 5.86449066e-02, 3.66840131e-03,1.71209686e-04, 7.86569051e-06, 3.61100946e-07].map(function(x) {return x * scale}),
+        ]
+
+        var bar_lengths;
+        var exploitation_agent_on_top = Math.random()<0.5;
+        if(!exploitation_agent_on_top){ // Randomize which agent is Agent 1. 
+            bar_lengths = [bar_lengths1,bar_lengths2];
+        } else {
+            bar_lengths = [bar_lengths2,bar_lengths1];
+        }
+        var num_timepts = bar_lengths[0][0].length;
+        var gray_string = '<img src="img/black_bar.png", height="25", width="1"></img>'
+        var bar_length_unit = 2;
+        var combo = [];
+        var c1;
+        var num_training_agents = [0,0];
+        var num_training_agents_max = [3,3]; // the number of times the subject can see simulations from each agent. 
+        var test_trial_time_horizons = [3,5,8];
+        var correct_answers = [2,1,1]; // 2 is exploitation subject, 1 is velocity subject
+        var agents = ["A","B"];
+
+        function draw_default_elements(agent_names) {
+            agent_names += '<p style="font-size:15pt; position: fixed; top: 29%; left: 5%"><b style="color:#691B7E"> Type A: </b>'+
+                        '<p style="font-size:15pt; position: fixed; top: 39%; left: 5%"><b style="color:#C56002"> Type B: </b>';
+            agent_names += '<p style="position: fixed; top: 30%; left: 13%"><img src="img/green_bar.png", height="25", width="'+(bar_length_unit*bar_lengths[0][Math.max(0,num_training_agents[0]-1)][0])+'"></img>';
+            agent_names += '<p style="position: fixed; top: 40%; left: 13%"><img src="img/green_bar.png", height="25", width="'+(bar_length_unit*bar_lengths[1][Math.max(0,num_training_agents[1]-1)][0])+'"></img>';
+            
+            agent_names += '<p style="position: fixed; top: 22%; left: 12%"><img src="img/arrow.png", height="25", width="1000"></img>';
+            agent_names +='<p style="position: fixed; top: 16%; left: 13%"> Weak<p>';
+            agent_names +='<p style="position: fixed; top: 16%; left: 85%"> Strong<p>'; 
+            return agent_names
+        }
+
+        // Let subjects see the two agents.
+        function bar(step, agent) {
+            var training_trial = {
+                type: 'html-button-response',
+                stimulus: function(){
+                    var agent_names = '';
+                    if(agent<0.5){
+                        agent_names += '<p style="position: fixed; top: 30%; left: 13%">' + combo[step] + '<br><br><br><br>';
+                    } else {
+                       agent_names+= '<p style="position: fixed; top: 40%; left: 13%">' + combo[step] + '<br><br><br><br>';
+                    }
+                    agent_names = draw_default_elements(agent_names);
+                    return agent_names;
+                },
+                choices: function() {
+                    if(num_training_agents[0]<num_training_agents_max[0] || num_training_agents[1]<num_training_agents_max[1] || step<(num_timepts-1)){
+                        return ['Next month','Another example of Type A','Another example of Type B'];
+                    } else {
+                        return ['Next month','Another example of Type A','Another example of Type B', 'Continue to questions'];
+                    }
+                },
+                button_html: function(){
+                    var button_htmls = [];
+                    if(step==(num_timepts-1)) {
+                        button_htmls.push('<button style="position: fixed; top: 70%; left: 48.6%; opacity: 0.5; pointer-events: none;" class="jspsych-btn">%choice%</button>')
+                        if(num_training_agents[0]<num_training_agents_max[0]){
+                            button_htmls.push('<button style="position: fixed; top: 80%; left: 33.7%;" class="jspsych-btn">%choice%</button>')
+                        } else{
+                            button_htmls.push('<button style="position: fixed; top: 80%; left: 33.7%; opacity: 0.5; pointer-events: none;" class="jspsych-btn">%choice%</button>')
+                        }
+                        if(num_training_agents[1]<num_training_agents_max[1]){
+                            button_htmls.push('<button style="position: fixed; top: 80%; left: 56%;" class="jspsych-btn">%choice%</button>')
+                        } else{
+                            button_htmls.push('<button style="position: fixed; top: 80%; left: 56%; opacity: 0.5; pointer-events: none;" class="jspsych-btn">%choice%</button>')
+                        }
+                    } else {
+                        button_htmls.push('<button style="position: fixed; top: 70%; left: 48.6%;" class="jspsych-btn">%choice%</button>')
+                        button_htmls.push('<button style="position: fixed; top: 80%; left: 33.7%; opacity: 0.5; pointer-events: none;" class="jspsych-btn">%choice%</button>')
+                        button_htmls.push('<button style="position: fixed; top: 80%; left: 56%; opacity: 0.5; pointer-events: none;" class="jspsych-btn">%choice%</button>')
+
+                    }
+                    if(num_training_agents[0]>=num_training_agents_max[0] && num_training_agents[1]>=num_training_agents_max[1] && step==(num_timepts-1)){
+                        button_htmls.push('<button style="position: fixed; top: 90%; left: 46.2%;" class="jspsych-btn">%choice%</button>')
+                    }
+                return button_htmls;
+                },
+                on_finish: function(data) {
+                    if (data.response == 1 || data.response==2) { // 'Review Agent 1' was clicked
+                        num_training_agents[data.response-1] = num_training_agents[data.response-1]+1;
+                        combo = [];
+                        for (let t = 0; t <= num_timepts; t++) {
+                            var bar_length_temp = '<img src="img/lightgreen_bar.png", height="25", width="'+(bar_length_unit*bar_lengths[data.response-1][Math.max(0,num_training_agents[agent]-1)][t])+'"></img>'
+                            if(t==0){
+                                c1 = bar_length_temp;
+                            } else {
+                                c1 = combo[combo.length-1] + bar_length_temp + gray_string;
+                            } 
+                            combo.push(c1)
+                        }
+                        const newTrials = [...Array(num_timepts)].map((_, j) => bar(j, data.response-1));
+                        jsPsych.addNodeToEndOfTimeline({timeline: newTrials}, function() {
+                            jsPsych.resumeExperiment();
+                        });
+                    } else if (data.response == 3) { //training has ended
+                        const newTrials = [...test_trial_time_horizons].map((_, j) => test_trial_gen(j, test_trial_time_horizons, correct_answers));
+                        jsPsych.addNodeToEndOfTimeline({timeline: newTrials}, function() {
+                            jsPsych.resumeExperiment();
+                        });
+                    }
+                },
+                prompt: function () {
+                    var message;
+                    if(step==0) {
+                        message='<p style="font-size:22pt; position: fixed; top: 5%; left: 10%"><b>Starting defense capability: </b></p>'
+                    } else {
+                        message='<p style="font-size:22pt; position: fixed; top: 5%; left: 10%"><b> Month ' + Number(step) + '/' + Number(num_timepts-1) + ': </b></p>'
+                    }
+                    if(agents[agent]=="A") {
+                        var agent_color = "#691B7E";
+                    } else {
+                        var agent_color = "#C56002";
+                    }
+                    message+='<p style="position: fixed; top: 55%; left: 36%"> You are now viewing <b>Energy </b><b style="color: '+agent_color+'"> Type '+agents[agent]+"</b><b>, example "+num_training_agents[agent]+"</b>.</p>"
+                    return message;
+
+                }            
+            };
+            return training_trial
+        }
+       
+
+        var total_bonus=0;
+        function test_trial_gen(test_trial_idx,test_trial_time_horizons, correct_answers) {
+            var test_trial = {
+                type: 'html-button-response',
+                stimulus: function(){
+                    var agent_names = draw_default_elements('');
+                    return agent_names;
+                },
+                choices: ["Type A", "Type B"],
+                prompt: '<p style="font-size:22pt; position: fixed; top: 5%; left: 10%"><b>Starting defense capability: </b></p>'+
+                            "<p style='position: fixed; top: 59%; left:37.5%'> <b> Scenario "+(test_trial_idx+1)+":</b><br> If the attack occurs at the end of <b style='color:red'> Month "+test_trial_time_horizons[test_trial_idx]+"</b>,"+
+                            "<br>Which energy type will you choose?</p>",
+                
+                button_html: function(){
+                    var button_htmls = [];
+                    button_htmls.push('<button style="position: fixed; top: 80%; left: 40%;" class="jspsych-btn">%choice%</button>')
+                    button_htmls.push('<button style="position: fixed; top: 80%; left: 57%;" class="jspsych-btn">%choice%</button>')
+                    return button_htmls;
+                    },
+                on_finish: function(){
+                    var choice = (exploitation_agent_on_top ? Number(1-jsPsych.data.getLastTrialData().values()[0].response + 1) : Number(jsPsych.data.getLastTrialData().values()[0].response + 1));
+                    //console.log(choice)
+                    var bonus = 0.5*(choice==correct_answers[test_trial_idx]);
+                    total_bonus += bonus;
+                    console.log(bonus)
+                    console.log(total_bonus)
+                    jsPsych.data.addDataToLastTrial({choice: choice, time_horizon: test_trial_time_horizons[test_trial_idx], correct_answer: correct_answers[test_trial_idx], bonus: bonus});
+                    
+
+                    if(test_trial_idx==(test_trial_time_horizons.length-1)){
+                        jsPsych.addNodeToEndOfTimeline({timeline: end_experiment(total_bonus)}, function() {
+                            jsPsych.resumeExperiment();
+                        });
+                    }
+                }
+            }
+            return test_trial;
+        }
+        //timeline.push(test_trial_gen(0,["XX",5,8]))
+
+        
+        // End of experiment //
+        function end_experiment(total_bonus) {
+            var total_bonus_rounded = Math.round(total_bonus * 100) / 100;
+
+            // Define redirect link for Qualtrics and add Turk variables
+            var turkInfo = jsPsych.turk.turkInfo();
+            // Add MTurk info to CSV
+            jsPsych.data.addProperties({
+            assignmentID: turkInfo.assignmentId
+            });
+            jsPsych.data.addProperties({
+            mturkID: turkInfo.workerId
+            });
+            jsPsych.data.addProperties({
+            hitID: turkInfo.hitId
+            });
+
+            
+
+            // End of all blocks //
+            var end_scenarios = {
+                type: 'instructions',
+                pages: ['<p class="center-content"> <b>Congratulations, you have completed the experiment!</b></p>' +
+                '<p class="center-content"> Next, we will ask for some demographic information and save your data. Then you will receive the completion code.</p>'],
+                show_clickable_nav: true,
+                allow_backward: false,
+                show_page_number: false,
+            };
+
+            var demographic_age = {
+            type: 'survey-text',
+            questions: [
+            {prompt: 'What is your age?', required: true},
+            ],
+            button_label: ["Next"],
+            }
+            var demographic_gender = {
+                type: 'survey-multi-choice',
+                questions: [
+                {prompt: '<p>What is your gender?</p>', options: ['M','F','Non-binary','Prefer not to say'], required: true}
+                ],
+                button_label: ["Next"],
+            }
+            var task_summary = {
+            type: 'survey-text',
+            questions: [
+            {preamble: '', prompt: 'In a sentence or two, please summarize the task you have just completed.', rows: 5, required: true},
+            ]
+            } 
+            var save_data = {
+            type: 'instructions',
+            pages: [
+                '<p class="center-content"> <b>Thank you for participating in our study!</b></p>' +
+                '<p class="center-content"> Your bonus is <b>$'+total_bonus_rounded+'</b>.<br>' +
+                ' We will send you the bonus soon after we process your data. </p>'+
+                '<p> Your completion code is <b style="color:red">wHISaZgqqj9x</b>. <br> Please copy it before you exit this page.',
+                ],
+            show_clickable_nav: false,
+            allow_backward: false,
+            show_page_number: false,
+            allow_keys: false,
+            on_load: function(data) {
+                jsPsych.data.addDataToLastTrial({total_bonus: total_bonus_rounded});
+                // jsPsych.data.get().localSave('csv','test_data.csv')
+                saveData(turkInfo.workerId, jsPsych.data.get().csv());
+            }
+            }
+            return [end_scenarios, demographic_age, demographic_gender, task_summary, save_data];
+        }
+
+        function startExperiment(){
+            jsPsych.init({
+            timeline: timeline,
+            on_finish: function() {
+        }
+        
+  });
+}
+
+
+
+
+
+
+
+
+    </script>
+
+</html>
+
+
