@@ -4,7 +4,6 @@
 - **Bold** words are .py, .ipynb, and .sh filenames.
 - *Italicized* words are .csv and .pickle filenames or directory folder names.
 
-```
 The code runs on Python 3.9.5 and Numpy 2.0.2.
 
 ## Online experiments
