@@ -1,5 +1,5 @@
 # forecasting_guides_dynamic_decisions
- Code for the manuscript "Probablistic forecasting guides dynamic decisions". The authors are Shuze Liu, Yang Xiang, and Samuel J. Gershman. 
+ Code for the manuscript "Probabilistic forecasting guides dynamic decisions". The authors are Shuze Liu, Yang Xiang, and Samuel J. Gershman. 
 
 - **Bold** words are .py, .ipynb, and .sh filenames.
 - *Italicized* words are .csv and .pickle filenames or directory folder names.
