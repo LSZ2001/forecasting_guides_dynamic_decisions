@@ -22,7 +22,7 @@ The code runs on Python 3.9.5 and Numpy 2.0.2.
 - **exp2_modelfits.ipynb** fits models to Experiment 2 human data.
 - **exp3.py** fits models to Experiment 3 human data. **exp3.sh** and **exp3_cv.sh** call upon it to perform the usual model fits and cross-validation fits respectively.
 - **exp3_cv_modelrecov.py** fits models to Experiment 3 fake data. **exp3_cv_modelrecov.sh** calls upon it to perform cross-validation fits for model recovery.
-- **exp3_modelrecoveryresultssave.ipynb** analyzes the model recovery fits for Experiment 3, producing model predictions and saving them. 
+- **exp3_modelrecoveryresultssave.ipynb** generates fake datasets based on Experiment 3 fitted models, to be used for model recovery. It also analyzes the model recovery fits for Experiment 3, producing model predictions and saving them. 
 
 ## *data* subfolder
 - It contains raw human data for each experiment, in both .csv and .pickle formats.
