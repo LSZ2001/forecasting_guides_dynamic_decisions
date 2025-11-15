@@ -13,7 +13,8 @@ The code runs on Python 3.9.5 and Numpy 2.0.2.
 - Experiment 2a: https://gershmanlab.com/experiments/shuze/learning_curves/exp2_variant0.html
 - Experiment 2b: https://gershmanlab.com/experiments/shuze/learning_curves/exp2_variant1.html
 - Experiment 3: https://gershmanlab.com/experiments/shuze/learning_curves/exp3.html
-
+- Experiment 4: https://gershmanlab.com/experiments/shuze/learning_curves/exp4.html
+  
 ## *Experiment* folder
 - It contains the Javascript code for the experiment links above.
 
@@ -24,7 +25,8 @@ The code runs on Python 3.9.5 and Numpy 2.0.2.
 - **exp2_modelfits.ipynb** fits models to Experiment 2 human data.
 - **exp3.py** fits models to Experiment 3 human data. **exp3.sh** and **exp3_cv.sh** call upon it to perform the usual model fits and cross-validation fits respectively. The code was designed for Harvard's FASRC cluster; it may require modification for other clusters.
 - **exp3_cv_modelrecov.py** fits models to Experiment 3 fake data. **exp3_cv_modelrecov.sh** calls upon it to perform cross-validation fits for model recovery. The code was designed for Harvard's FASRC cluster; it may require modification for other clusters.
-- **exp3_modelrecoveryresultssave.ipynb** generates fake datasets based on Experiment 3 fitted models, to be used for model recovery. It also analyzes the model recovery fits for Experiment 3, producing model predictions and saving them. 
+- **exp3_modelrecoveryresultssave.ipynb** generates fake datasets based on Experiment 3 fitted models, to be used for model recovery. It also analyzes the model recovery fits for Experiment 3, producing model predictions and saving them.
+- **exp4...** files follow the same convention as Experiment 3 above.
 
 ### *data* subfolder
 - It contains raw human data for each experiment, in both .csv and .pickle formats.
